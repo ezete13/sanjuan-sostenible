@@ -1,0 +1,194 @@
+---
+import Logo from "../../../public/images/logo.png";
+---
+
+<section>
+    <!--Navbar Desktop -->
+    <nav
+        class="font-heading relative px-6 py-2 flex justify-between items-center bg-shark-50 lg:px-30 xl:px-50 2xl:px-60"
+    >
+        <div>
+            <a href="#">
+                <img src={Logo.src} alt="" class="h-10 md:h-11" />
+            </a>
+        </div>
+        <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-shark-950 p-3">
+                <svg
+                    class="block h-5 w-5 fill-current"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <title>Mobile menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"
+                    ></path>
+                </svg>
+            </button>
+        </div>
+
+        <ul
+            class="hidden absolute text-xs font-heading font-semibold uppercase top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6"
+        >
+            <li>
+                <a class="text-nature-600 font-bold" href="#hero">Inicio</a>
+            </li>
+            <li>
+                <a class="text-shark-800 hover:text-nature-700" href="#about"
+                    >Sobre el Congreso</a
+                >
+            </li>
+            <li>
+                <a
+                    class="text-shark-800 hover:text-nature-700"
+                    href="#organizers">Organización</a
+                >
+            </li>
+            <li>
+                <a class="text-shark-800 hover:text-nature-700" href="#place"
+                    >Ubicación</a
+                >
+            </li>
+            <li>
+                <a class="text-shark-800 hover:text-nature-700" href="#speakers"
+                    >Expositores</a
+                >
+            </li>
+            <li>
+                <a class="text-shark-800 hover:text-nature-700" href="#topics"
+                    >Ejes Temáticos</a
+                >
+            </li>
+            <li>
+                <a class="text-shark-800 hover:text-nature-700" href="#timeline"
+                    >Programa</a
+                >
+            </li>
+        </ul>
+    </nav>
+    <!--Fin Navbar Desktop -->
+
+    <!-- Navbar Mobile -->
+    <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-aqua-950 opacity-60"></div>
+        <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-6/12 max-w-sm py-6 px-6 bg-shark-50 border-r overflow-y-auto font-heading md:w-3/12"
+        >
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                    <img src={Logo.src} alt="" class="h-11 md:h-10" />
+                </a>
+                <button class="navbar-close">
+                    <svg
+                        class="h-6 w-6 text-shark-950 cursor-pointer hover:text-shark-600"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div>
+                <ul class="uppercase">
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#hero">Inicio</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#about">Sobre el Congreso</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#organizers">Organización</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#place">Ubicación</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#speakers">Expositores</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#topics">Ejes Temáticos</a
+                        >
+                    </li>
+                    <li class="mb-1">
+                        <a
+                            class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded"
+                            href="#timeline">Programa</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <script>
+            // Burger menus
+            document.addEventListener("DOMContentLoaded", function () {
+                // open
+                const burger = document.querySelectorAll(".navbar-burger");
+                const menu = document.querySelectorAll(".navbar-menu");
+
+                if (burger.length && menu.length) {
+                    for (var i = 0; i < burger.length; i++) {
+                        burger[i].addEventListener("click", function () {
+                            for (var j = 0; j < menu.length; j++) {
+                                menu[j].classList.toggle("hidden");
+                            }
+                        });
+                    }
+                }
+
+                // close
+                const close = document.querySelectorAll(".navbar-close");
+                const backdrop = document.querySelectorAll(".navbar-backdrop");
+
+                if (close.length) {
+                    for (var i = 0; i < close.length; i++) {
+                        close[i].addEventListener("click", function () {
+                            for (var j = 0; j < menu.length; j++) {
+                                menu[j].classList.toggle("hidden");
+                            }
+                        });
+                    }
+                }
+
+                if (backdrop.length) {
+                    for (var i = 0; i < backdrop.length; i++) {
+                        backdrop[i].addEventListener("click", function () {
+                            for (var j = 0; j < menu.length; j++) {
+                                menu[j].classList.toggle("hidden");
+                            }
+                        });
+                    }
+                }
+            });
+        </script>
+    </div>
+
+    <!-- Estilo CSS para scroll suave -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</section>

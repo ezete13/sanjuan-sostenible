@@ -1,0 +1,19 @@
+---
+const { image, title, body } = Astro.props;
+---
+
+<div class="sm:mx-auto text-center my-2">
+    <div
+        class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-nature-950 mx-auto sm:w-24 sm:h-24"
+    >
+        <img src={`/images/objetives/${image}`} alt="" class="h-10 sm:h-15" />
+    </div>
+    <h6
+        class="mb-4 text-xl font-heading font-bold leading-6 md:text-xl text-nature-950"
+    >
+        {title}
+    </h6>
+    <p class="font-body mb-3 text-md text-shark-800">
+        {body}
+    </p>
+</div>

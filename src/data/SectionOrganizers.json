@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Instituto de Desarrollo Sostenible (IDS)",
+        "body": "Centro de investigación y formación académica que impulsa estrategias para la sostenibilidad en universidades, empresas y la sociedad.",
+        "href": "https://fcee.uccuyosj.edu.ar/la-facultad/instituto-de-desarrollo-sostenible",
+        "alt": "Logotipo del Instituto de Desarrollo Sostenible (IDS)",
+        "image": "ids.png"
+    },
+    {
+        "title": "Vicerrectorado en Formación",
+        "body": "Promueve la ética y responsabilidad social en el ámbito académico, formando líderes con una visión humanista y sostenible.",
+        "href": "https://uccuyo.edu.ar/",
+        "alt": "Logotipo del Vicerrectorado en Formación",
+        "image": "vicerrectorado.png"
+    },
+    {
+        "title": "Ministerio de Minería de San Juan",
+        "body": "Fomenta una minería responsable y sostenible con inversión en energías limpias y reducción del impacto ambiental.",
+        "href": "https://mineria.sanjuan.gob.ar/",
+        "alt": "Logotipo del Ministerio de Minería de San Juan",
+        "image": "mineria.png"
+    },
+    {
+        "title": "Secretaría de Ambiente y Desarrollo Sustentable",
+        "body": "Implementa políticas para equilibrar el desarrollo económico con la conservación del medio ambiente en San Juan.",
+        "href": "https://ambiente.sanjuan.gob.ar/",
+        "alt": "Logotipo de la Secretaría de Ambiente y Desarrollo Sustentable",
+        "image": "ambiente.png"
+    }
+]

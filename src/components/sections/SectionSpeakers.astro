@@ -1,0 +1,32 @@
+---
+import Title from "../elements/Title.astro";
+import SubTitle from "../elements/SubTitle.astro";
+import Speaker from "../elements/Speaker.astro";
+import Data from "../../data/SectionSpeakers.json";
+---
+
+<section class="mx-auto px-10 max-w-7xl" id="speakers">
+    <Title text="Expositores" />
+
+    <div class="mt-15">
+        <div class="sm:w-1/2">
+            <SubTitle text="Invitados de lujo, para un evento único" />
+        </div>
+    </div>
+
+    <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+        {
+            Data.map((item) => (
+                <Speaker
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    body={item.body}
+                    country={item.country}
+                    altc={item.altc}
+                    image={item.image}
+                    alti={item.alti}
+                />
+            ))
+        }
+    </div>
+</section>

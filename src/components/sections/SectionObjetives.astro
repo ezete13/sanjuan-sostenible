@@ -1,0 +1,31 @@
+---
+import Title from "../elements/Title.astro";
+import SubTitle from "../elements/SubTitle.astro";
+import Objetive from "../elements/Objetive.astro";
+import Data from "../../data/SectionObjetives.json";
+---
+
+<section class="mx-auto px-10 max-w-7xl" id="objectives">
+    <Title text="Objetivos" />
+    <div class="mt-15">
+        <div class="md:w-1/2">
+            <SubTitle
+                text="Tenemos objetivos claros: ¡Impulsar, conectar, promover, inspirar!"
+            />
+        </div>
+    </div>
+
+    <div
+        class="grid gap-8 row-gap-12 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-20"
+    >
+        {
+            Data.map((item) => (
+                <Objetive
+                    title={item.title}
+                    body={item.body}
+                    image={item.image}
+                />
+            ))
+        }
+    </div>
+</section>
