@@ -42,7 +42,8 @@ const Hero: React.FC<HeroProps> = ({
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
                         <a
                             href={heroBtn.link}
-                            className="block w-full rounded-sm bg-nature-600 px-12 py-3 text-sm font-medium text-shark-950 shadow-sm hover:bg-nature-400 focus:ring-3 focus:outline-hidden sm:w-auto"
+                            className="uppercase block w-full rounded-sm bg-nature-600 px-12 py-3 text-sm font-medium text-shark-50 shadow-sm hover:bg-nature-800 focus:ring-3 focus:outline-hidden sm:w-auto"
+                            target="_blank"
                         >
                             {heroBtn.text}
                         </a>

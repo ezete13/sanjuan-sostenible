@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SectionNavBar from "../components/sections/SectionNavBar.astro";
+import SectionHero from "../components/sections/SectionHero.tsx";
+import SectionAbout from "../components/sections/SectionAbout.astro";
+import SectionTopics from "../components/sections/SectionTopics.astro";
+import SectionFooter from "../components/sections/SectionFooter.astro";
+import SectionTimeLine from "../components/sections/SectionTimeLine.astro";
+import "../styles/global.css";
+import SectionOrganizers from "../components/sections/SectionOrganizers.astro";
+import SectionSpeakers from "../components/sections/SectionSpeakers.astro";
+import SectionPlace from "../components/sections/SectionPlace.astro";
+import SectionAcent from "../components/sections/SectionAcent.astro";
+import SectionFeatures from "../components/sections/SectionFeatures.astro";
+import SectionObjetives from "../components/sections/SectionObjetives.astro";
+---
+
+<Layout>
+	<SectionNavBar />
+	<SectionHero client:load />
+	<SectionAcent />
+	<SectionAbout />
+	<SectionFeatures />
+	<SectionObjetives />
+	<SectionOrganizers />
+
+	<SectionPlace />
+	<SectionSpeakers />
+	<SectionTopics />
+
+	<SectionTimeLine />
+	<SectionAcent />
+	<SectionFooter />
+</Layout>
