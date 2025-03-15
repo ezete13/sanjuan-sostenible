@@ -549,7 +549,7 @@ const $$Button = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Button;
   const { content, href, target, aling } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<div${addAttribute(`mt-15 gap-4 md:text-${aling} mb-10`, "class")}> <a${addAttribute(href, "href")}${addAttribute(target, "target")} class="font-heading uppercase rounded-sm bg-nature-600 px-8 py-5 text-lg font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden w-auto"> ${content} </a> </div>`;
+  return renderTemplate`${maybeRenderHead()}<div${addAttribute(`mt-15 gap-4 md:text-${aling} mb-10`, "class")}> <a${addAttribute(href, "href")}${addAttribute(target, "target")} class="font-heading uppercase rounded-sm bg-nature-600 px-5 py-5 text-sm sm:text-md md:text-lg font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden w-auto"> ${content} </a> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Button.astro", void 0);
 
 const $$SectionPlace = createComponent(($$result, $$props, $$slots) => {
@@ -580,7 +580,7 @@ const Data$2 = {
 };
 
 const $$SectionAcent = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<div class="w-full bg-gradient-to-r from-green-200 to-yellow-100 py-0 md:py-8"> <div class="mx-auto max-w-6xl text-center p-6"> <div class="font-heading font-semibold text-aqua-950 text-xl md:text-5xl text-center mt-10 mb-10"> <p class="mb-2"> ${Data$2.bigtitle1} </p> <p> ${Data$2.bigtitle2} </p> </div> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto"></div> <h3 class="font-heading text-2xl font-semibold text-aqua-950 mt-2 md:text-3xl"> ${Data$2.title} </h3> <h2 class="font-heading text-3xl font-bold text-aqua-950 uppercase md:text-4xl"> ${Data$2.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto mb-5"></div> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.date} </p> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preisncribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </div>`;
+  return renderTemplate`${maybeRenderHead()}<div class="w-full bg-gradient-to-r from-green-200 to-yellow-100 py-0 md:py-8"> <div class="mx-auto max-w-6xl text-center p-2 md:p-10"> <div class="font-heading font-semibold text-aqua-950 text-lg md:text-2xl text-center mt-10 mb-10"> <p> ${Data$2.bigtitle1} </p> <p> ${Data$2.bigtitle2} </p> </div> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto"></div> <h3 class="font-heading text-2xl font-semibold text-aqua-950 mt-2 md:text-3xl"> ${Data$2.title} </h3> <h2 class="font-heading text-3xl font-bold text-aqua-950 uppercase md:text-4xl"> ${Data$2.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto mb-5"></div> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.date} </p> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preisncribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionAcent.astro", void 0);
 
 const Data$1 = [
