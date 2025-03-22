@@ -6,7 +6,7 @@
         "heroTitle": "San Juan | 2025",
         "heroBody": "San Juan se convierte en el epicentro de la sostenibilidad. Únete a este evento transformador donde se reunirán líderes, expertos y visionarios para abordar los desafíos del futuro. ¡Sé parte del cambio hacia un mundo más sostenible!",
         "heroBtn": {
-            "text": "Preisncribirme",
+            "text": "Preinscribirme",
             "link": "https://forms.gle/MsBpcmmrxRXbpp1V7"
         },
         "heroAlt": "Imagen del Congreso de Desarrollo Sostenible en San Juan"
@@ -18,8 +18,8 @@
         "heroTitle": "San Juan | 2025",
         "heroBody": "El congreso contará con una serie de conferencias, paneles y talleres de alto impacto. Descubre las actividades que marcarán la diferencia en la construcción de un futuro sostenible para San Juan y la región.",
         "heroBtn": {
-            "text": "Preisncribirme",
-            "link": "https://forms.gle/MsBpcmmrxRXbpp1V7"
+            "text": "Ver Programa",
+            "link": "#timeline"
         },
         "heroAlt": "Imagen del cronograma de conferencias"
     },
@@ -30,8 +30,8 @@
         "heroTitle": "San Juan | 2025",
         "heroBody": "Si eres un experto en desarrollo sostenible, esta es tu oportunidad para compartir tus conocimientos. Presenta tu propuesta, inspira a otros y forma parte de un evento que impulsará el cambio en nuestra región.",
         "heroBtn": {
-            "text": "Preisncribirme",
-            "link": "https://forms.gle/MsBpcmmrxRXbpp1V7"
+            "text": "Quiero Contactarme",
+            "link": "mailto:congreso.sostenibilidad@uccuyo.edu.ar"
         },
         "heroAlt": "Imagen sobre energía renovable y sostenibilidad"
     }

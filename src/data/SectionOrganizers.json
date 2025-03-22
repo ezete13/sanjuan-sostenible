@@ -1,27 +1,34 @@
 [
     {
-        "title": "Instituto de Desarrollo Sostenible (IDS)",
+        "title": "Instituto de Desarrollo Sostenible | Universidad Católica de Cuyo",
         "body": "Centro de investigación y formación académica que impulsa estrategias para la sostenibilidad en universidades, empresas y la sociedad.",
-        "href": "https://fcee.uccuyosj.edu.ar/la-facultad/instituto-de-desarrollo-sostenible",
+        "href": "https://uccuyo.edu.ar/",
         "alt": "Logotipo del Instituto de Desarrollo Sostenible (IDS)",
         "image": "ids.png"
     },
     {
-        "title": "Vicerrectorado en Formación",
+        "title": "Vicerrectorado en Formación | Universidad Católica de Cuyo",
         "body": "Promueve la ética y responsabilidad social en el ámbito académico, formando líderes con una visión humanista y sostenible.",
         "href": "https://uccuyo.edu.ar/",
         "alt": "Logotipo del Vicerrectorado en Formación",
-        "image": "vicerrectorado.png"
+        "image": "catolica.png"
     },
     {
-        "title": "Ministerio de Minería de San Juan",
+        "title": "Facultad de Cs. Económicas y Empresarialias | Universidad Católica de Cuyo",
+        "body": "Forma profesionales con sólidos conocimientos económicos y empresariales, comprometidos con el desarrollo sustentable y la innovación.",
+        "href": "https://uccuyo.edu.ar/",
+        "alt": "Logotipo de la Facultad de Cs. Económicas y Empresarialias",
+        "image": "economicas.png"
+    },
+    {
+        "title": "Ministerio de Minería de San Juan | Gobierno de San Juan",
         "body": "Fomenta una minería responsable y sostenible con inversión en energías limpias y reducción del impacto ambiental.",
         "href": "https://mineria.sanjuan.gob.ar/",
         "alt": "Logotipo del Ministerio de Minería de San Juan",
         "image": "mineria.png"
     },
     {
-        "title": "Secretaría de Ambiente y Desarrollo Sustentable",
+        "title": "Secretaría de Ambiente y Desarrollo Sustentable | Gobierno de San Juan",
         "body": "Implementa políticas para equilibrar el desarrollo económico con la conservación del medio ambiente en San Juan.",
         "href": "https://ambiente.sanjuan.gob.ar/",
         "alt": "Logotipo de la Secretaría de Ambiente y Desarrollo Sustentable",

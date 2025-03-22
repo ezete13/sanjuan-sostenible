@@ -1,3 +1,5 @@
+
+
 interface HeroProps {
     heroId: string;
     heroImg: string;
@@ -10,6 +12,8 @@ interface HeroProps {
     };
     heroAlt: string;
 }
+
+
 
 const Hero: React.FC<HeroProps> = ({
     heroId,
@@ -24,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({
         <div
             id={heroId}
             className="relative bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(images/${heroImg})` }}
+            style={{ backgroundImage: `url(images/hero/${heroImg})` }}
         > 
             <div className="absolute inset-0 bg-shark-950/80 sm:bg-transparent sm:from-shark-950/90 sm:to-aqua-950/30 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l" />
 
@@ -42,8 +46,8 @@ const Hero: React.FC<HeroProps> = ({
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
                         <a
                             href={heroBtn.link}
-                            className="uppercase block w-full rounded-sm bg-nature-600 px-12 py-3 text-sm font-medium text-shark-50 shadow-sm hover:bg-nature-800 focus:ring-3 focus:outline-hidden sm:w-auto"
-                            target="_blank"
+                            className="block w-full font-heading uppercase rounded-full bg-nature-600 px-8 py-4 text-sm sm:text-md font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden sm:w-auto"
+                        
                         >
                             {heroBtn.text}
                         </a>

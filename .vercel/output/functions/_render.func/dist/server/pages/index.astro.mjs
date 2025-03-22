@@ -1,4 +1,4 @@
-import { c as createComponent, a as createAstro, e as renderHead, f as renderSlot, r as renderTemplate, m as maybeRenderHead, g as addAttribute, h as renderScript, i as renderComponent } from '../chunks/astro/server_BscW1DuT.mjs';
+import { c as createComponent, a as createAstro, n as renderHead, o as renderSlot, r as renderTemplate, m as maybeRenderHead, l as addAttribute, p as renderScript, q as renderComponent } from '../chunks/astro/server_D25NinNs.mjs';
 import 'kleur/colors';
 import 'clsx';
 import { jsxs, jsx } from 'react/jsx-runtime';
@@ -23,7 +23,7 @@ const Logo = new Proxy({"src":"/_astro/logo.CD8QnA64.png","width":1090,"height":
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
-								return "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/public/images/logo.png";
+								return "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/public/images/brand/logo.png";
 							}
 							
 							return target[name];
@@ -31,7 +31,7 @@ const Logo = new Proxy({"src":"/_astro/logo.CD8QnA64.png","width":1090,"height":
 					});
 
 const $$SectionNavBar = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section data-astro-cid-i5q7mc5m> <!--Navbar Desktop --> <nav class="font-heading relative px-6 py-2 flex justify-between items-center bg-shark-50 lg:px-30 xl:px-50 2xl:px-60" data-astro-cid-i5q7mc5m> <div data-astro-cid-i5q7mc5m> <a href="#" data-astro-cid-i5q7mc5m> <img${addAttribute(Logo.src, "src")} alt="" class="h-10 md:h-11" data-astro-cid-i5q7mc5m> </a> </div> <div class="lg:hidden" data-astro-cid-i5q7mc5m> <button class="navbar-burger flex items-center text-shark-950 p-3" data-astro-cid-i5q7mc5m> <svg class="block h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-i5q7mc5m> <title>Mobile menu</title> <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" data-astro-cid-i5q7mc5m></path> </svg> </button> </div> <ul class="hidden absolute text-xs font-heading font-semibold uppercase top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6" data-astro-cid-i5q7mc5m> <li data-astro-cid-i5q7mc5m> <a class="text-nature-600 font-bold" href="#hero" data-astro-cid-i5q7mc5m>Inicio</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#about" data-astro-cid-i5q7mc5m>Sobre el Congreso</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#organizers" data-astro-cid-i5q7mc5m>Organización</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#place" data-astro-cid-i5q7mc5m>Ubicación</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#speakers" data-astro-cid-i5q7mc5m>Expositores</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#topics" data-astro-cid-i5q7mc5m>Ejes Temáticos</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#timeline" data-astro-cid-i5q7mc5m>Programa</a> </li> </ul> </nav> <!--Fin Navbar Desktop --> <!-- Navbar Mobile --> <div class="navbar-menu relative z-50 hidden" data-astro-cid-i5q7mc5m> <div class="navbar-backdrop fixed inset-0 bg-aqua-950 opacity-60" data-astro-cid-i5q7mc5m></div> <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-6/12 max-w-sm py-6 px-6 bg-shark-50 border-r overflow-y-auto font-heading md:w-3/12" data-astro-cid-i5q7mc5m> <div class="flex items-center mb-8" data-astro-cid-i5q7mc5m> <a class="mr-auto text-3xl font-bold leading-none" href="#" data-astro-cid-i5q7mc5m> <img${addAttribute(Logo.src, "src")} alt="" class="h-11 md:h-10" data-astro-cid-i5q7mc5m> </a> <button class="navbar-close" data-astro-cid-i5q7mc5m> <svg class="h-6 w-6 text-shark-950 cursor-pointer hover:text-shark-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-astro-cid-i5q7mc5m> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" data-astro-cid-i5q7mc5m></path> </svg> </button> </div> <div data-astro-cid-i5q7mc5m> <ul class="uppercase" data-astro-cid-i5q7mc5m> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#hero" data-astro-cid-i5q7mc5m>Inicio</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#about" data-astro-cid-i5q7mc5m>Sobre el Congreso</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#organizers" data-astro-cid-i5q7mc5m>Organización</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#place" data-astro-cid-i5q7mc5m>Ubicación</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#speakers" data-astro-cid-i5q7mc5m>Expositores</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#topics" data-astro-cid-i5q7mc5m>Ejes Temáticos</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#timeline" data-astro-cid-i5q7mc5m>Programa</a> </li> </ul> </div> </nav> ${renderScript($$result, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionNavBar.astro?astro&type=script&index=0&lang.ts")} </div> <!-- Estilo CSS para scroll suave -->  </section>`;
+  return renderTemplate`${maybeRenderHead()}<section data-astro-cid-i5q7mc5m> <!--Navbar Desktop --> <nav class="font-heading relative px-6 py-2 flex justify-between items-center bg-shark-50 lg:px-30 xl:px-50 2xl:px-60" data-astro-cid-i5q7mc5m> <div data-astro-cid-i5q7mc5m> <a href="#" data-astro-cid-i5q7mc5m> <img${addAttribute(Logo.src, "src")} alt="" class="h-10 md:h-11" data-astro-cid-i5q7mc5m> </a> </div> <div class="lg:hidden" data-astro-cid-i5q7mc5m> <button class="navbar-burger flex items-center text-shark-950 p-3" data-astro-cid-i5q7mc5m> <svg class="block h-5 w-5 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" data-astro-cid-i5q7mc5m> <title>Mobile menu</title> <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" data-astro-cid-i5q7mc5m></path> </svg> </button> </div> <ul class="hidden absolute text-xs font-heading font-semibold uppercase top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:items-center lg:w-auto lg:space-x-6" data-astro-cid-i5q7mc5m> <li data-astro-cid-i5q7mc5m> <a class="text-nature-600 font-bold" href="#hero" data-astro-cid-i5q7mc5m>Inicio</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#about" data-astro-cid-i5q7mc5m>Sobre el Congreso</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#organizers" data-astro-cid-i5q7mc5m>Organización</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#place" data-astro-cid-i5q7mc5m>Ubicación</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#speakers" data-astro-cid-i5q7mc5m>Expositores</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#topics" data-astro-cid-i5q7mc5m>Ejes Temáticos</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#timeline" data-astro-cid-i5q7mc5m>Programa</a> </li> <li data-astro-cid-i5q7mc5m> <a class="text-shark-800 hover:text-nature-700" href="#contact" data-astro-cid-i5q7mc5m>Contacto</a> </li> </ul> </nav> <!--Fin Navbar Desktop --> <!-- Navbar Mobile --> <div class="navbar-menu relative z-50 hidden" data-astro-cid-i5q7mc5m> <div class="navbar-backdrop fixed inset-0 bg-aqua-950 opacity-60" data-astro-cid-i5q7mc5m></div> <nav class="fixed top-0 left-0 bottom-0 flex flex-col w-6/12 max-w-sm py-6 px-6 bg-shark-50 border-r overflow-y-auto font-heading md:w-3/12" data-astro-cid-i5q7mc5m> <div class="flex items-center mb-8" data-astro-cid-i5q7mc5m> <a class="mr-auto text-3xl font-bold leading-none" href="#" data-astro-cid-i5q7mc5m> <img${addAttribute(Logo.src, "src")} alt="" class="h-11 md:h-10" data-astro-cid-i5q7mc5m> </a> <button class="navbar-close" data-astro-cid-i5q7mc5m> <svg class="h-6 w-6 text-shark-950 cursor-pointer hover:text-shark-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" data-astro-cid-i5q7mc5m> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" data-astro-cid-i5q7mc5m></path> </svg> </button> </div> <div data-astro-cid-i5q7mc5m> <ul class="uppercase" data-astro-cid-i5q7mc5m> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#hero" data-astro-cid-i5q7mc5m>Inicio</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#about" data-astro-cid-i5q7mc5m>Sobre el Congreso</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#organizers" data-astro-cid-i5q7mc5m>Organización</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#place" data-astro-cid-i5q7mc5m>Ubicación</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#speakers" data-astro-cid-i5q7mc5m>Expositores</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#topics" data-astro-cid-i5q7mc5m>Ejes Temáticos</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#timeline" data-astro-cid-i5q7mc5m>Programa</a> </li> <li class="mb-1" data-astro-cid-i5q7mc5m> <a class="block p-4 text-sm font-semibold text-shark-950 hover:bg-shark-50 hover:text-nature-700 rounded" href="#contact" data-astro-cid-i5q7mc5m>Contacto</a> </li> </ul> </div> </nav> ${renderScript($$result, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionNavBar.astro?astro&type=script&index=0&lang.ts")} </div> <!-- Estilo CSS para scroll suave -->  </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionNavBar.astro", void 0);
 
 const Hero = ({
@@ -48,7 +48,7 @@ const Hero = ({
     {
       id: heroId,
       className: "relative bg-cover bg-center bg-no-repeat",
-      style: { backgroundImage: `url(images/${heroImg})` },
+      style: { backgroundImage: `url(images/hero/${heroImg})` },
       children: [
         /* @__PURE__ */ jsx("div", { className: "absolute inset-0 bg-shark-950/80 sm:bg-transparent sm:from-shark-950/90 sm:to-aqua-950/30 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l" }),
         /* @__PURE__ */ jsx("div", { className: "relative mx-auto max-w-screen-xl px-7 sm:px-32 lg:flex min-h-[70vh] lg:px-32 flex items-center justify-left xl:px-20", children: /* @__PURE__ */ jsxs("div", { className: "max-w-xl text-center ltr:sm:text-left rtl:sm:text-right", children: [
@@ -61,8 +61,7 @@ const Hero = ({
             "a",
             {
               href: heroBtn.link,
-              className: "uppercase block w-full rounded-sm bg-nature-600 px-12 py-3 text-sm font-medium text-shark-50 shadow-sm hover:bg-nature-800 focus:ring-3 focus:outline-hidden sm:w-auto",
-              target: "_blank",
+              className: "block w-full font-heading uppercase rounded-full bg-nature-600 px-8 py-4 text-sm sm:text-md font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden sm:w-auto",
               children: heroBtn.text
             }
           ) })
@@ -80,7 +79,7 @@ const HeroData = [
 		heroTitle: "San Juan | 2025",
 		heroBody: "San Juan se convierte en el epicentro de la sostenibilidad. Únete a este evento transformador donde se reunirán líderes, expertos y visionarios para abordar los desafíos del futuro. ¡Sé parte del cambio hacia un mundo más sostenible!",
 		heroBtn: {
-			text: "Preisncribirme",
+			text: "Preinscribirme",
 			link: "https://forms.gle/MsBpcmmrxRXbpp1V7"
 		},
 		heroAlt: "Imagen del Congreso de Desarrollo Sostenible en San Juan"
@@ -92,8 +91,8 @@ const HeroData = [
 		heroTitle: "San Juan | 2025",
 		heroBody: "El congreso contará con una serie de conferencias, paneles y talleres de alto impacto. Descubre las actividades que marcarán la diferencia en la construcción de un futuro sostenible para San Juan y la región.",
 		heroBtn: {
-			text: "Preisncribirme",
-			link: "https://forms.gle/MsBpcmmrxRXbpp1V7"
+			text: "Ver Programa",
+			link: "#timeline"
 		},
 		heroAlt: "Imagen del cronograma de conferencias"
 	},
@@ -104,8 +103,8 @@ const HeroData = [
 		heroTitle: "San Juan | 2025",
 		heroBody: "Si eres un experto en desarrollo sostenible, esta es tu oportunidad para compartir tus conocimientos. Presenta tu propuesta, inspira a otros y forma parte de un evento que impulsará el cambio en nuestra región.",
 		heroBtn: {
-			text: "Preisncribirme",
-			link: "https://forms.gle/MsBpcmmrxRXbpp1V7"
+			text: "Quiero Contactarme",
+			link: "mailto:congreso.sostenibilidad@uccuyo.edu.ar"
 		},
 		heroAlt: "Imagen sobre energía renovable y sostenibilidad"
 	}
@@ -162,13 +161,13 @@ const $$SubTitle = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<h2 class="font-heading text-2xl font-bold tracking-tight text-aqua-950 md:text-3xl md:mx-auto"> <span class="relative inline-block"> ${text} </span> </h2>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/SubTitle.astro", void 0);
 
-const ImgPlaneta = new Proxy({"src":"/_astro/san-juan-sostenible.D5x_J5c4.jpg","width":1920,"height":1080,"format":"jpg"}, {
+const ImgPlaneta = new Proxy({"src":"/_astro/img.D5x_J5c4.jpg","width":1920,"height":1080,"format":"jpg"}, {
 						get(target, name, receiver) {
 							if (name === 'clone') {
 								return structuredClone(target);
 							}
 							if (name === 'fsPath') {
-								return "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/public/images/san-juan-sostenible.jpg";
+								return "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/public/images/about/img.jpg";
 							}
 							
 							return target[name];
@@ -239,7 +238,7 @@ Entidades académicas
 </p> <ul class="font-body text-md"> <li class="mb-3"> <a href="https://fcee.uccuyosj.edu.ar/la-facultad/instituto-de-desarrollo-sostenible" class="text-shark-700 hover:text-nature-700">Instituto de Desarrollo Sostenible</a> </li> <li class="mb-3"> <a href="https://uccuyo.edu.ar/" class="text-shark-700 hover:text-nature-700">Universidad Católica De Cuyo</a> </li> <li class="mb-3"> <a href="https://mineria.sanjuan.gob.ar/" class="text-shark-700 hover:text-nature-700">Facultad de Ciencias Economicas y Empresariales</a> </li> </ul> </div> <div class="col-span-6 text-center md:text-left md:col-span-3 p-5"> <p class="font-heading pb-6 text-md font-semibold text-aqua-950 md:text-lg">
 Entidades Gubernamentales
 </p> <ul class="font-body"> <li class="mb-3"> <a href="https://ambiente.sanjuan.gob.ar/&quot;" class="text-shark-700 hover:text-nature-700">Secretaría de Estado de Ambiente y Desarrollo
-                            Sustentable</a> </li> <li class="mb-3"> <a href="https://mineria.sanjuan.gob.ar/" class="text-shark-700 hover:text-nature-700">Ministerio de Minería</a> </li> <li class="mb-3"> <a href="https://anchipurac.sanjuan.gob.ar/" class="text-shark-700 hover:text-nature-700">Centro Ambiental Anchipurac</a> </li> </ul> </div> </div> <div class="grid justify-center pt-6 lg:justify-between"> <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6"> <span>©2025 Todos los derechos reservados</span> <a href="#" class="text-nature-800 hover:text-nature-700">Política de privacidad</a> <a href="#" class="text-nature-800 hover:text-nature-700">Términos de servicio</a> </div> <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13"> <a href="mailto:ids@uccuyo.edu.ar" title="Email" class="flex items-center justify-center w-10 h-10 rounded-full bg-nature-600 text-gray-50"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"> <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path> <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path> </svg> </a> <!--  <a
+                            Sustentable</a> </li> <li class="mb-3"> <a href="https://mineria.sanjuan.gob.ar/" class="text-shark-700 hover:text-nature-700">Ministerio de Minería</a> </li> <li class="mb-3"> <a href="https://anchipurac.sanjuan.gob.ar/" class="text-shark-700 hover:text-nature-700">Centro Ambiental Anchipurac</a> </li> </ul> </div> </div> <div class="grid justify-center pt-6 lg:justify-between"> <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6"> <span>©2025 Todos los derechos reservados</span> <a href="#" class="text-nature-800 hover:text-nature-700">Política de privacidad</a> <a href="#" class="text-nature-800 hover:text-nature-700">Términos de servicio</a> </div> <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13"> <a href="mailto:congreso.sostenibilidad@uccuyo.edu.ar" title="Email" class="flex items-center justify-center w-10 h-10 rounded-full bg-nature-600 text-gray-50"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5"> <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path> <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path> </svg> </a> <!--  <a
                     href="#"
                     title="Twitter"
                     class="flex items-center justify-center w-10 h-10 rounded-full bg-nature-600 text-gray-50"
@@ -396,28 +395,35 @@ Visitar Web
 
 const Data$4 = [
 	{
-		title: "Instituto de Desarrollo Sostenible (IDS)",
+		title: "Instituto de Desarrollo Sostenible | Universidad Católica de Cuyo",
 		body: "Centro de investigación y formación académica que impulsa estrategias para la sostenibilidad en universidades, empresas y la sociedad.",
-		href: "https://fcee.uccuyosj.edu.ar/la-facultad/instituto-de-desarrollo-sostenible",
+		href: "https://uccuyo.edu.ar/",
 		alt: "Logotipo del Instituto de Desarrollo Sostenible (IDS)",
 		image: "ids.png"
 	},
 	{
-		title: "Vicerrectorado en Formación",
+		title: "Vicerrectorado en Formación | Universidad Católica de Cuyo",
 		body: "Promueve la ética y responsabilidad social en el ámbito académico, formando líderes con una visión humanista y sostenible.",
 		href: "https://uccuyo.edu.ar/",
 		alt: "Logotipo del Vicerrectorado en Formación",
-		image: "vicerrectorado.png"
+		image: "catolica.png"
 	},
 	{
-		title: "Ministerio de Minería de San Juan",
+		title: "Facultad de Cs. Económicas y Empresarialias | Universidad Católica de Cuyo",
+		body: "Forma profesionales con sólidos conocimientos económicos y empresariales, comprometidos con el desarrollo sustentable y la innovación.",
+		href: "https://uccuyo.edu.ar/",
+		alt: "Logotipo de la Facultad de Cs. Económicas y Empresarialias",
+		image: "economicas.png"
+	},
+	{
+		title: "Ministerio de Minería de San Juan | Gobierno de San Juan",
 		body: "Fomenta una minería responsable y sostenible con inversión en energías limpias y reducción del impacto ambiental.",
 		href: "https://mineria.sanjuan.gob.ar/",
 		alt: "Logotipo del Ministerio de Minería de San Juan",
 		image: "mineria.png"
 	},
 	{
-		title: "Secretaría de Ambiente y Desarrollo Sustentable",
+		title: "Secretaría de Ambiente y Desarrollo Sustentable | Gobierno de San Juan",
 		body: "Implementa políticas para equilibrar el desarrollo económico con la conservación del medio ambiente en San Juan.",
 		href: "https://ambiente.sanjuan.gob.ar/",
 		alt: "Logotipo de la Secretaría de Ambiente y Desarrollo Sustentable",
@@ -552,13 +558,13 @@ const $$Button = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
   Astro2.self = $$Button;
   const { content, href, target, aling } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<div${addAttribute(`mt-15 gap-4 md:text-${aling} mb-10`, "class")}> <a${addAttribute(href, "href")}${addAttribute(target, "target")} class="font-heading uppercase rounded-sm bg-nature-600 px-5 py-5 text-sm sm:text-md md:text-lg font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden w-auto"> ${content} </a> </div>`;
+  return renderTemplate`${maybeRenderHead()}<div${addAttribute(`mt-15 gap-4 md:text-${aling} mb-10`, "class")}> <a${addAttribute(href, "href")}${addAttribute(target, "target")} class="font-heading uppercase rounded-full bg-nature-600 px-5 py-4 text-sm sm:text-md font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden w-auto"> ${content} </a> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Button.astro", void 0);
 
 const $$SectionPlace = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<div class="w-full bg-gradient-to-r from-nature-200 to-sun-200 py-10" id="place"> <section class="mx-auto px-10 max-w-7xl"> <div class="mx-auto max-w-6xl flex flex-col md:flex-row lg:items-center md:gap-6 p-6 text-center md:text-left"> <!-- Imagen del lugar --> <img${addAttribute(image.src, "src")} alt="Centro Ambiental Anchipurac" class="w-2/3 md:w-1/3 lg:w-1/4 mx-auto md:mx-0 md:mr-4 my-4"> <!-- Contenedor de texto --> <div class="md:w-2/3 lg:w-3/4"> <h2 class="font-heading text-3xl font-bold text-aqua-950">
 Conoce la sede, conoce el Centro Ambiental Anchipurac
-</h2> <p class="font-body md:text-md lg:text-lg text-shark-950 mt-4">
+</h2> <p class="font-body md:text-md lg:text-lg text-shark-700 mt-4">
 Ubicado en la provincia de San Juan, Argentina, el Centro
                     Ambiental Anchipurac es un referente en educación ambiental
                     y sostenibilidad. Su innovadora arquitectura y enfoque
@@ -582,8 +588,21 @@ const Data$2 = {
   place,
 };
 
+const Img = new Proxy({"src":"/_astro/bg-acent.BZb0hR_w.webp","width":1920,"height":1080,"format":"webp"}, {
+						get(target, name, receiver) {
+							if (name === 'clone') {
+								return structuredClone(target);
+							}
+							if (name === 'fsPath') {
+								return "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/public/images/bg-acent.webp";
+							}
+							
+							return target[name];
+						}
+					});
+
 const $$SectionAcent = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<div class="w-full bg-gradient-to-r from-green-200 to-yellow-100 py-0 md:py-8"> <div class="mx-auto max-w-6xl text-center p-2 md:p-10"> <div class="font-heading font-semibold text-aqua-950 text-lg md:text-2xl text-center mt-10 mb-10"> <p> ${Data$2.bigtitle1} </p> <p> ${Data$2.bigtitle2} </p> </div> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto"></div> <h3 class="font-heading text-2xl font-semibold text-aqua-950 mt-2 md:text-3xl"> ${Data$2.title} </h3> <h2 class="font-heading text-3xl font-bold text-aqua-950 uppercase md:text-4xl"> ${Data$2.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto mb-5"></div> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.date} </p> <p class="font-body font-semibold text-lg text-shark-950"> ${Data$2.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preisncribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </div>`;
+  return renderTemplate`${maybeRenderHead()}<section class="relative w-full"> <!-- Imagen de fondo --> <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"${addAttribute(`background-image: url(${Img.src});`, "style")}></div> <!-- Overlay degradado oscuro --> <div class="absolute inset-0 bg-gradient-to-b from-shark-950/90 to-aqua-950/80 z-10"></div> <!-- Contenido --> <div class="relative z-20 px-4 py-16 md:py-24 text-center max-w-6xl mx-auto"> <div class="font-heading font-semibold text-shark-100 text-md md:text-xl mb-10"> <p>${Data$2.bigtitle1}</p> <p>${Data$2.bigtitle2}</p> </div> <div class="w-24 h-1 bg-nature-600 mx-auto mb-3"></div> <h3 class="font-heading text-2xl font-semibold text-white md:text-3xl"> ${Data$2.title} </h3> <h2 class="font-heading text-3xl font-bold text-white uppercase md:text-4xl"> ${Data$2.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mx-auto my-3"></div> <p class="font-body font-semibold text-lg text-sun-300"> ${Data$2.date} </p> <p class="font-body font-semibold text-lg text-sun-300 mb-6"> ${Data$2.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preinscribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionAcent.astro", void 0);
 
 const Data$1 = [
@@ -618,7 +637,7 @@ const $$Feature = createComponent(($$result, $$props, $$slots) => {
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Feature.astro", void 0);
 
 const $$SectionFeatures = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-10 max-w-7xl" id="features"> ${renderComponent($$result, "Title", $$Title, { "text": "Claves" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Las claves que lo hace especial, interesante y sustentable" })} </div> </div> <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-20"> ${Data$1.map((item) => renderTemplate`${renderComponent($$result, "Feature", $$Feature, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-10 max-w-7xl mb-20" id="features"> ${renderComponent($$result, "Title", $$Title, { "text": "Claves" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Las claves que lo hace especial, interesante y sustentable" })} </div> </div> <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-20"> ${Data$1.map((item) => renderTemplate`${renderComponent($$result, "Feature", $$Feature, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionFeatures.astro", void 0);
 
 const $$Astro = createAstro();
@@ -666,8 +685,18 @@ const $$SectionObjetives = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-10 max-w-7xl" id="objectives"> ${renderComponent($$result, "Title", $$Title, { "text": "Objetivos" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Tenemos objetivos claros:" })} ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "\xA1Impulsar, conectar, promover, inspirar!" })} </div> </div> <div class="grid gap-8 row-gap-12 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-20"> ${Data.map((item) => renderTemplate`${renderComponent($$result, "Objetive", $$Objetive, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionObjetives.astro", void 0);
 
+const $$SectionContact = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<div class="w-full bg-gradient-to-r from-nature-200 to-sun-200"> <section id="contact" class="py-16 px-6 md:px-20 lg:px-32"> <div class="max-w-3xl mx-auto text-center"> <h2 class="font-heading text-3xl font-bold text-aqua-950">
+¿Tienes una consulta o propuesta?
+</h2> <p class="font-body md:text-md lg:text-lg text-shark-700 mt-4">
+Si querés comunicarte con la organización del congreso, estamos
+                disponibles para escucharte. Podés enviarnos tus dudas,
+                sugerencias o ideas.
+</p> ${renderComponent($$result, "Button", $$Button, { "content": "Enviar correo", "href": "mailto:congreso.sostenibilidad@uccuyo.edu.ar", "target": "_blank", "aling": "center" })} </div> </section> </div>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionContact.astro", void 0);
+
 const $$Index = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "SectionNavBar", $$SectionNavBar, {})} ${renderComponent($$result2, "SectionHero", SectionHero, { "client:load": true, "client:component-hydration": "load", "client:component-path": "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionHero.tsx", "client:component-export": "default" })} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionAbout", $$SectionAbout, {})} ${renderComponent($$result2, "SectionFeatures", $$SectionFeatures, {})} ${renderComponent($$result2, "SectionObjetives", $$SectionObjetives, {})} ${renderComponent($$result2, "SectionOrganizers", $$SectionOrganizers, {})} ${renderComponent($$result2, "SectionPlace", $$SectionPlace, {})} ${renderComponent($$result2, "SectionSpeakers", $$SectionSpeakers, {})} ${renderComponent($$result2, "SectionTopics", $$SectionTopics, {})} ${renderComponent($$result2, "SectionTimeLine", $$SectionTimeLine, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionFooter", $$SectionFooter, {})} ` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "SectionNavBar", $$SectionNavBar, {})} ${renderComponent($$result2, "SectionHero", SectionHero, { "client:load": true, "client:component-hydration": "load", "client:component-path": "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionHero.tsx", "client:component-export": "default" })} ${renderComponent($$result2, "SectionAbout", $$SectionAbout, {})} ${renderComponent($$result2, "SectionFeatures", $$SectionFeatures, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionObjetives", $$SectionObjetives, {})} ${renderComponent($$result2, "SectionOrganizers", $$SectionOrganizers, {})} ${renderComponent($$result2, "SectionPlace", $$SectionPlace, {})} ${renderComponent($$result2, "SectionSpeakers", $$SectionSpeakers, {})} ${renderComponent($$result2, "SectionTopics", $$SectionTopics, {})} ${renderComponent($$result2, "SectionTimeLine", $$SectionTimeLine, {})} ${renderComponent($$result2, "SectionContact", $$SectionContact, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionFooter", $$SectionFooter, {})} ` })}`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/index.astro";
