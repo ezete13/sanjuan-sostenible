@@ -533,6 +533,24 @@ const Data$4 = [
 		altc: "Chile",
 		image: "images/speakers/marcela_vergara.jpg",
 		alti: "Foto de MBA Marcela Vergara"
+	},
+	{
+		title: "Ricardo Faria",
+		subtitle: "Representante de ZeoGroup",
+		body: "Especialista en soluciones tecnológicas con zeolitas naturales.",
+		country: "br.svg",
+		altc: "Brasil",
+		image: "images/speakers/ricardo_faria.jpg",
+		alti: "Foto de Ricardo Faria"
+	},
+	{
+		title: "Martin Lázzaro",
+		subtitle: "Representante INZA",
+		body: "Especialista en International Natural Zeolite Association.",
+		country: "ar.svg",
+		altc: "Argentina",
+		image: "images/speakers/martin_lazzaro.jpg",
+		alti: "Foto de Martin Lázzaro"
 	}
 ];
 
