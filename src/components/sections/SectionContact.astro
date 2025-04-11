@@ -2,23 +2,25 @@
 import Button from "../elements/Button.astro";
 ---
 
-<div class="w-full bg-gradient-to-r from-nature-200 to-sun-200">
-    <section id="contact" class="py-16 px-6 md:px-20 lg:px-32">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="font-heading text-3xl font-bold text-aqua-950">
-                ¿Tienes una consulta o propuesta?
-            </h2>
-            <p class="font-body md:text-md lg:text-lg text-shark-700 mt-4">
-                Si querés comunicarte con la organización del congreso, estamos
-                disponibles para escucharte. Podés enviarnos tus dudas,
-                sugerencias o ideas.
-            </p>
-            <Button
-                content="Enviar correo"
-                href="mailto:congreso.sostenibilidad@uccuyo.edu.ar"
-                target="_blank"
-                aling="center"
-            />
+<section class="mx-auto scroll-mt-15" id="contact">
+    <div class="w-full bg-gradient-to-r from-nature-200 to-sun-200">
+        <div id="contact" class="py-16 px-6 md:px-20 lg:px-32">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="font-heading text-3xl font-bold text-aqua-950">
+                    ¿Tienes una consulta o propuesta?
+                </h2>
+                <p class="font-body md:text-md lg:text-lg text-shark-700 mt-4">
+                    Si querés comunicarte con la organización del congreso,
+                    estamos disponibles para escucharte. Podés enviarnos tus
+                    dudas, sugerencias o ideas.
+                </p>
+                <Button
+                    content="Enviar correo"
+                    href="mailto:congreso.sostenibilidad@uccuyo.edu.ar"
+                    target="_blank"
+                    aling="center"
+                />
+            </div>
         </div>
-    </section>
-</div>
+    </div>
+</section>
