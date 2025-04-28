@@ -1,4 +1,4 @@
-import { c as createComponent, a as createAstro, n as renderHead, o as renderSlot, r as renderTemplate, m as maybeRenderHead, l as addAttribute, p as renderScript, q as renderComponent } from '../chunks/astro/server_D25NinNs.mjs';
+import { c as createComponent, a as createAstro, af as renderHead, ag as renderSlot, r as renderTemplate, m as maybeRenderHead, l as addAttribute, ah as renderScript, q as renderComponent, ai as Fragment } from '../chunks/astro/server_DPziu1Wn.mjs';
 import 'kleur/colors';
 import 'clsx';
 import { jsxs, jsx } from 'react/jsx-runtime';
@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 export { renderers } from '../renderers.mjs';
 
-const $$Astro$a = createAstro();
+const $$Astro$c = createAstro();
 const $$Layout = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$c, $$props, $$slots);
   Astro2.self = $$Layout;
   return renderTemplate`<html lang="es"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><!-- Meta Información SEO --><meta name="generator" content="{Astro.generator}"><meta name="description" content="Congreso internacional de desarrollo sostenible para académicos y empresarios enfocado a la innovación y sostenibilidad global."><meta name="keywords" content="congreso desarrollo sostenible, innovación, sostenibilidad, académicos, empresarios, conferencia internacional, tecnologías verdes, cambio climático"><meta name="robots" content="index, follow"><!-- Meta Open Graph para redes sociales --><meta property="og:title" content="Congreso Internacional de Desarrollo Sostenible"><meta property="og:description" content="Únete al Congreso Internacional de Desarrollo Sostenible: un evento que reúne a académicos, empresarios y expertos para discutir soluciones innovadoras en sostenibilidad."><meta property="og:image" content="/images/social-image.jpg"><!-- Cambia la ruta por la imagen adecuada --><meta property="og:url" content="https://tusitio.com"><meta property="og:type" content="website"><!-- Twitter Cards --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Congreso Internacional de Desarrollo Sostenible"><meta name="twitter:description" content="Acompáñanos en el Congreso Internacional de Desarrollo Sostenible para explorar las mejores prácticas y soluciones para un futuro más verde."><meta name="twitter:image" content="/images/social-image.jpg"><!-- Cambia la ruta por la imagen adecuada --><!-- Título de la página --><title>
 			Congreso Internacional de Desarrollo Sostenible | San Juan +
@@ -145,17 +145,17 @@ const SectionHero = () => {
   ) });
 };
 
-const $$Astro$9 = createAstro();
+const $$Astro$b = createAstro();
 const $$Title = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$b, $$props, $$slots);
   Astro2.self = $$Title;
   const { text } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="font-heading font-semibold text-aqua-950 text-4xl md:text-5xl mt-15 mb-15 text-center"> <h1>${text}</h1> <div class="w-24 h-1 bg-nature-600 mt-2 mx-auto"></div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Title.astro", void 0);
 
-const $$Astro$8 = createAstro();
+const $$Astro$a = createAstro();
 const $$SubTitle = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$a, $$props, $$slots);
   Astro2.self = $$SubTitle;
   const { text } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<h2 class="font-heading text-2xl font-bold tracking-tight text-aqua-950 md:text-3xl md:mx-auto"> <span class="relative inline-block"> ${text} </span> </h2>`;
@@ -187,15 +187,15 @@ Este evento reunirá a expertos internacionales, líderes
 </p> </div> <div class="py-5 md:w-1/2 md:py-0 border-b-3 border-r-3 border-aqua-800 rounded"> <img${addAttribute(ImgPlaneta.src, "src")} alt="Descripción de la imagen" class="w-full object-cover h-full px-3 py-0 md:py-3 rounded"> </div> </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionAbout.astro", void 0);
 
-const $$Astro$7 = createAstro();
+const $$Astro$9 = createAstro();
 const $$Topic = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$9, $$props, $$slots);
   Astro2.self = $$Topic;
   const { title, body, image } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="flex items-center bg-shark-50 rounded-lg p-6"> <img${addAttribute(`/images/topics/${image}`, "src")} alt="Gestión" class="w-16 h-16 rounded-full border-4 border-nature-950 bg-nature-50 p-2"> <div class="ml-4"> <h3 class="text-2xl font-bold text-aqua-950"> ${title} </h3> <p class="text-md text-shark-800"> ${body} </p> </div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Topic.astro", void 0);
 
-const Data$7 = [
+const Data$9 = [
 	{
 		title: "Sostenibilidad modelo de gestión",
 		body: "Estrategias y modelos para integrar la sostenibilidad en la gestión empresarial y organizacional.",
@@ -229,7 +229,7 @@ const Data$7 = [
 ];
 
 const $$SectionTopics = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="topics"> ${renderComponent($$result, "Title", $$Title, { "text": "Tem\xE1ticas" })} <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10"> ${Data$7.map((item) => renderTemplate`${renderComponent($$result, "Topic", $$Topic, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="topics"> ${renderComponent($$result, "Title", $$Title, { "text": "Tem\xE1ticas" })} <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10"> ${Data$9.map((item) => renderTemplate`${renderComponent($$result, "Topic", $$Topic, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionTopics.astro", void 0);
 
 const $$SectionFooter = createComponent(($$result, $$props, $$slots) => {
@@ -256,15 +256,15 @@ Entidades Gubernamentales
                 </a>--> </div> </div> </div> </footer>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionFooter.astro", void 0);
 
-const $$Astro$6 = createAstro();
+const $$Astro$8 = createAstro();
 const $$EventTimeLine = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$8, $$props, $$slots);
   Astro2.self = $$EventTimeLine;
   const { title, body, date, position, icon } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div${addAttribute(`container-timeline ${position}`, "class")}> <div class="date">${date}</div> <i${addAttribute(`icon fa ${icon}`, "class")}></i> <!-- Ícono dinámico --> <div class="content-timeline"> <h2>${title}</h2> <p>${body}</p> </div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/EventTimeLine.astro", void 0);
 
-const Data$6 = [
+const Data$8 = [
 	{
 		day: "Jueves 15 de Mayo 2025",
 		events: [
@@ -276,7 +276,7 @@ const Data$6 = [
 			},
 			{
 				title: "Acto de Apertura",
-				body: "Palabras de bienvenida de la Rectora UCCuyo, Vicerrector y Ministro de la Producción.",
+				body: "Palabras de bienvenida de la Rectora UCCuyo, Vicerrector",
 				date: "09:45",
 				icon: "fa-microphone"
 			},
@@ -380,12 +380,12 @@ const Data$6 = [
 ];
 
 const $$SectionTimeLine = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto max-w-7xl mb-10 scroll-mt-15" id="timeline"> ${renderComponent($$result, "Title", $$Title, { "text": "Programa" })} ${Data$6.map((dayItem) => renderTemplate`<div> <!-- Subtítulo con el día --> <div class="mt-15"> <div class="text-center"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": dayItem.day })} </div> </div> <!-- Timeline --> <div class="timeline"> ${dayItem.events.map((event, index) => renderTemplate`${renderComponent($$result, "EventTimeLine", $$EventTimeLine, { "title": event.title, "body": event.body, "date": event.date, "position": index % 2 === 0 ? "left" : "right", "icon": event.icon })}`)} </div> </div>`)} </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto max-w-7xl mb-10 scroll-mt-15" id="timeline"> ${renderComponent($$result, "Title", $$Title, { "text": "Programa" })} ${Data$8.map((dayItem) => renderTemplate`<div> <!-- Subtítulo con el día --> <div class="mt-15"> <div class="text-center"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": dayItem.day })} </div> </div> <!-- Timeline --> <div class="timeline"> ${dayItem.events.map((event, index) => renderTemplate`${renderComponent($$result, "EventTimeLine", $$EventTimeLine, { "title": event.title, "body": event.body, "date": event.date, "position": index % 2 === 0 ? "left" : "right", "icon": event.icon })}`)} </div> </div>`)} </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionTimeLine.astro", void 0);
 
-const $$Astro$5 = createAstro();
+const $$Astro$7 = createAstro();
 const $$Organizer = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
   Astro2.self = $$Organizer;
   const { title, body, href, alt, image } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="flex flex-col md:flex-row bg-shark-50 rounded-lg overflow-hidden mt-5"> <img${addAttribute(`/images/organizers/${image}`, "src")}${addAttribute(alt, "alt")} class="w-full md:w-1/3 object-contain max-h-25 mb-3"> <div class="p-6 flex-1 text-center md:text-left"> <h3 class="text-xl font-heading font-bold text-nature-950"> ${title} </h3> <p class="font-body text-md text-shark-800 mt-2"> ${body} </p> <div class="mt-4 flex flex-wrap gap-4 text-center items-center justify-center md:justify-start"> <a${addAttribute(href, "href")} class="font-heading text-lg font-semibold text-nature-700 hover:text-nature-600 focus:outline-hidden flex items-center gap-1">
@@ -393,7 +393,7 @@ Visitar Web
 <svg width="12px" height="12px" viewBox="-4.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <title>arrow_right [#333]</title> <desc>Created with Sketch.</desc> <g id="Page-1" stroke="none" stroke-width="2" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-425.000000, -6679.000000)" fill="#068f57"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M370.39,6519 L369,6520.406 L377.261,6529.013 L376.38,6529.931 L376.385,6529.926 L369.045,6537.573 L370.414,6539 C372.443,6536.887 378.107,6530.986 380,6529.013 C378.594,6527.547 379.965,6528.976 370.39,6519" id="arrow_right-[#333]"></path> </g> </g> </g> </svg> </a> </div> </div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Organizer.astro", void 0);
 
-const Data$5 = [
+const Data$7 = [
 	{
 		title: "Instituto de Desarrollo Sostenible | Universidad Católica de Cuyo",
 		body: "Centro de investigación y formación académica que impulsa estrategias para la sostenibilidad en universidades, empresas y la sociedad.",
@@ -432,18 +432,18 @@ const Data$5 = [
 ];
 
 const $$SectionOrganizers = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="organizers"> ${renderComponent($$result, "Title", $$Title, { "text": "Organizadores" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Instituciones provinciales que acompa\xF1an al congreso" })} </div> </div> <div class="grid gap-10 xl:grid-cols-2 mt-5"> ${Data$5.map((item) => renderTemplate`${renderComponent($$result, "Organizer", $$Organizer, { "title": item.title, "body": item.body, "href": item.href, "alt": item.alt, "image": item.image })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="organizers"> ${renderComponent($$result, "Title", $$Title, { "text": "Organizadores" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Instituciones provinciales que acompa\xF1an al congreso" })} </div> </div> <div class="grid gap-10 xl:grid-cols-2 mt-5"> ${Data$7.map((item) => renderTemplate`${renderComponent($$result, "Organizer", $$Organizer, { "title": item.title, "body": item.body, "href": item.href, "alt": item.alt, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionOrganizers.astro", void 0);
 
-const $$Astro$4 = createAstro();
+const $$Astro$6 = createAstro();
 const $$Speaker = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
   Astro2.self = $$Speaker;
   const { title, subtitle, body, country, altc, image, alti } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="bg-shark-50 rounded-lg p-3 text-center"> <img${addAttribute(`/images/countries/${country}`, "src")}${addAttribute(altc, "alt")} class="w-20 h-20 mx-auto mb-1 rounded-full object-cover"> <h3 class="text-xl font-heading font-bold text-aqua-950"> ${title} </h3> <p class="text-body text-md text-shark-800 font-semibold"> ${subtitle} </p> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Speaker.astro", void 0);
 
-const Data$4 = [
+const Data$6 = [
 	{
 		title: "PhD Frederic Marimon",
 		subtitle: "Universidad Internacional de Cataluña",
@@ -555,7 +555,7 @@ const Data$4 = [
 ];
 
 const $$SectionSpeakers = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="speakers"> ${renderComponent($$result, "Title", $$Title, { "text": "Expositores" })} <div class="mt-15"> <div class="sm:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Invitados acad\xE9micos de gran nivel, para un evento \xFAnico" })} </div> </div> <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10"> ${Data$4.map((item) => renderTemplate`${renderComponent($$result, "Speaker", $$Speaker, { "title": item.title, "subtitle": item.subtitle, "body": item.body, "country": item.country, "altc": item.altc, "image": item.image, "alti": item.alti })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="speakers"> ${renderComponent($$result, "Title", $$Title, { "text": "Expositores" })} <div class="mt-15"> <div class="sm:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Invitados acad\xE9micos de gran nivel, para un evento \xFAnico" })} </div> </div> <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10"> ${Data$6.map((item) => renderTemplate`${renderComponent($$result, "Speaker", $$Speaker, { "title": item.title, "subtitle": item.subtitle, "body": item.body, "country": item.country, "altc": item.altc, "image": item.image, "alti": item.alti })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionSpeakers.astro", void 0);
 
 const image = new Proxy({"src":"/_astro/anchipurac.C0PbkbAt.png","width":239,"height":120,"format":"png"}, {
@@ -571,9 +571,9 @@ const image = new Proxy({"src":"/_astro/anchipurac.C0PbkbAt.png","width":239,"he
 						}
 					});
 
-const $$Astro$3 = createAstro();
+const $$Astro$5 = createAstro();
 const $$Button = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$5, $$props, $$slots);
   Astro2.self = $$Button;
   const { content, href, target, aling } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div${addAttribute(`mt-15 gap-4 md:text-${aling} mb-10`, "class")}> <a${addAttribute(href, "href")}${addAttribute(target, "target")} class="font-heading uppercase rounded-full bg-nature-600 px-5 py-4 text-sm sm:text-md font-semibold text-aqua-50 shadow-sm hover:bg-nature-700 focus:ring-3 focus:outline-hidden w-auto"> ${content} </a> </div>`;
@@ -597,7 +597,7 @@ const title = "Congreso internacional";
 const subtitle = "San Juan + Sostenible";
 const date = "15 y 16 | Mayo 2025";
 const place = "Anchipurac | San Juan - Argentina";
-const Data$3 = {
+const Data$5 = {
   bigtitle1,
   bigtitle2,
   title,
@@ -620,10 +620,10 @@ const Img = new Proxy({"src":"/_astro/bg-acent.BZb0hR_w.webp","width":1920,"heig
 					});
 
 const $$SectionAcent = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto mb-10 scroll-mt-15"> <div class="relative w-full"> <!-- Imagen de fondo --> <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"${addAttribute(`background-image: url(${Img.src});`, "style")}></div> <!-- Overlay degradado oscuro --> <div class="absolute inset-0 bg-gradient-to-b from-shark-950/90 to-aqua-950/80 z-10"></div> <!-- Contenido --> <div class="relative z-20 px-4 py-16 md:py-24 text-center max-w-6xl mx-auto"> <div class="font-heading font-semibold text-shark-100 text-md md:text-xl mb-10"> <p>${Data$3.bigtitle1}</p> <p>${Data$3.bigtitle2}</p> </div> <div class="w-24 h-1 bg-nature-600 mx-auto mb-3"></div> <h3 class="font-heading text-2xl font-semibold text-white md:text-3xl"> ${Data$3.title} </h3> <h2 class="font-heading text-3xl font-bold text-white uppercase md:text-4xl"> ${Data$3.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mx-auto my-3"></div> <p class="font-body font-semibold text-lg text-sun-300"> ${Data$3.date} </p> <p class="font-body font-semibold text-lg text-sun-300 mb-6"> ${Data$3.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preinscribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto mb-10 scroll-mt-15"> <div class="relative w-full"> <!-- Imagen de fondo --> <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"${addAttribute(`background-image: url(${Img.src});`, "style")}></div> <!-- Overlay degradado oscuro --> <div class="absolute inset-0 bg-gradient-to-b from-shark-950/90 to-aqua-950/80 z-10"></div> <!-- Contenido --> <div class="relative z-20 px-4 py-16 md:py-24 text-center max-w-6xl mx-auto"> <div class="font-heading font-semibold text-shark-100 text-md md:text-xl mb-10"> <p>${Data$5.bigtitle1}</p> <p>${Data$5.bigtitle2}</p> </div> <div class="w-24 h-1 bg-nature-600 mx-auto mb-3"></div> <h3 class="font-heading text-2xl font-semibold text-white md:text-3xl"> ${Data$5.title} </h3> <h2 class="font-heading text-3xl font-bold text-white uppercase md:text-4xl"> ${Data$5.subtitle} </h2> <div class="w-24 h-1 bg-nature-600 mx-auto my-3"></div> <p class="font-body font-semibold text-lg text-sun-300"> ${Data$5.date} </p> <p class="font-body font-semibold text-lg text-sun-300 mb-6"> ${Data$5.place} </p> ${renderComponent($$result, "Button", $$Button, { "content": "Preinscribirme al Congreso", "href": "https://forms.gle/MsBpcmmrxRXbpp1V7", "target": "_blank", "aling": "center" })} </div> </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionAcent.astro", void 0);
 
-const Data$2 = [
+const Data$4 = [
 	{
 		image: "🔗",
 		title: "Conexión entre sectores",
@@ -646,27 +646,27 @@ const Data$2 = [
 	}
 ];
 
-const $$Astro$2 = createAstro();
+const $$Astro$4 = createAstro();
 const $$Feature = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$4, $$props, $$slots);
   Astro2.self = $$Feature;
   const { title, body, image } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="flex items-start gap-4 p-5 border-l-3 border-nature-950 bg-shake-50"> <div class="w-10 h-10 flex items-center justify-center bg-nature-100 rounded-full"> ${image} </div> <div> <h3 class="text-xl font-heading font-bold text-nature-950"> ${title} </h3> <p class="text-body text-md text-shark-800"> ${body} </p> </div> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Feature.astro", void 0);
 
 const $$SectionFeatures = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="features"> ${renderComponent($$result, "Title", $$Title, { "text": "Claves" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Las claves que lo hace especial, interesante y sustentable" })} </div> </div> <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-20"> ${Data$2.map((item) => renderTemplate`${renderComponent($$result, "Feature", $$Feature, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="features"> ${renderComponent($$result, "Title", $$Title, { "text": "Claves" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Las claves que lo hace especial, interesante y sustentable" })} </div> </div> <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 mt-10 md:mt-20"> ${Data$4.map((item) => renderTemplate`${renderComponent($$result, "Feature", $$Feature, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionFeatures.astro", void 0);
 
-const $$Astro$1 = createAstro();
+const $$Astro$3 = createAstro();
 const $$Objetive = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  const Astro2 = $$result.createAstro($$Astro$3, $$props, $$slots);
   Astro2.self = $$Objetive;
   const { image, title, body } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<div class="sm:mx-auto text-center my-2"> <div class="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-nature-950 mx-auto sm:w-24 sm:h-24"> <img${addAttribute(`/images/objetives/${image}`, "src")} alt="" class="h-10 sm:h-15"> </div> <h6 class="mb-4 text-xl font-heading font-bold leading-6 md:text-xl text-nature-950"> ${title} </h6> <p class="font-body mb-3 text-md text-shark-800"> ${body} </p> </div>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/Objetive.astro", void 0);
 
-const Data$1 = [
+const Data$3 = [
 	{
 		title: "Impulsar la transformación sostenible",
 		body: "Reunir a los principales actores del ámbito académico, empresarial y gubernamental para diseñar estrategias que consoliden a San Juan como un referente en sostenibilidad y economía verde.",
@@ -700,7 +700,7 @@ const Data$1 = [
 ];
 
 const $$SectionObjetives = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="objectives"> ${renderComponent($$result, "Title", $$Title, { "text": "Objetivos" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Tenemos objetivos claros:" })} ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "\xA1Impulsar, conectar, promover, inspirar!" })} </div> </div> <div class="grid gap-8 row-gap-12 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-20"> ${Data$1.map((item) => renderTemplate`${renderComponent($$result, "Objetive", $$Objetive, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="objectives"> ${renderComponent($$result, "Title", $$Title, { "text": "Objetivos" })} <div class="mt-15"> <div class="md:w-1/2"> ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "Tenemos objetivos claros:" })} ${renderComponent($$result, "SubTitle", $$SubTitle, { "text": "\xA1Impulsar, conectar, promover, inspirar!" })} </div> </div> <div class="grid gap-8 row-gap-12 md:grid-cols-2 xl:grid-cols-3 mt-10 md:mt-20"> ${Data$3.map((item) => renderTemplate`${renderComponent($$result, "Objetive", $$Objetive, { "title": item.title, "body": item.body, "image": item.image })}`)} </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionObjetives.astro", void 0);
 
 const $$SectionContact = createComponent(($$result, $$props, $$slots) => {
@@ -713,36 +713,153 @@ Si querés comunicarte con la organización del congreso,
 </p> ${renderComponent($$result, "Button", $$Button, { "content": "Enviar correo", "href": "mailto:congreso.sostenibilidad@uccuyo.edu.ar", "target": "_blank", "aling": "center" })} </div> </div> </div> </section>`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionContact.astro", void 0);
 
-const $$Astro = createAstro();
-const $$MainSponsor = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
-  Astro2.self = $$MainSponsor;
+const $$Astro$2 = createAstro();
+const $$SponsorInstitution = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$2, $$props, $$slots);
+  Astro2.self = $$SponsorInstitution;
   const { title, body, link, logo, primary_color } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<div class="w-full rounded-2xl bg-shark-50"> <div class="flex flex-col md:flex-row items-center"> <div class="md:w-1/3 w-full p-8 flex justify-center"> <img${addAttribute(`/images/sponsors/${logo}`, "src")}${addAttribute(title, "alt")} class="max-h-40 object-contain" style="background: transparent;"> </div> <div class="md:w-2/3 w-full p-8"> <h3 class="text-2xl font-heading font-bold mb-4"${addAttribute(`color: ${primary_color}`, "style")}> ${title} </h3> <p class="font-body text-md text-shark-900 leading-relaxed"> ${body} </p> <div class="mt-6"> <a${addAttribute(link, "href")} class="inline-flex items-center gap-2 font-heading font-semibold text-lg px-4 py-2 rounded-full border"${addAttribute(`border-color: ${primary_color}; color: ${primary_color}`, "style")} target="_blank">
-Visitar Web
-<svg width="16" height="16"${addAttribute(primary_color, "fill")} viewBox="0 0 24 24"> <path d="M14 3l7 7-1.41 1.41L16 7.83V20h-2V7.83l-3.59 3.58L9 10l7-7z"></path> </svg> </a> </div> </div> </div> </div>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/MainSponsor.astro", void 0);
+  return renderTemplate`${maybeRenderHead()}<div class="w-full flex flex-col items-center text-center p-4 rounded-2xl hover:shadow-lg transition"> <a${addAttribute(link, "href")} target="_blank" class="flex justify-center"> <img${addAttribute(`/images/sponsor_institution/${logo}`, "src")}${addAttribute(title, "alt")} class="max-h-20 object-contain transition-transform hover:scale-105"> </a> <h3 class="mt-4 text-lg font-semibold font-heading"${addAttribute(`color: ${primary_color}`, "style")}> ${title} </h3> ${body && renderTemplate`<p class="mt-2 text-sm text-shark-700 font-body leading-snug max-w-xs"> ${body} </p>`} </div>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/SponsorInstitution.astro", void 0);
 
-const Data = [
+const Data$2 = [
 	{
-		title: "L&G | Logística y Gastronomía SRL",
-		body: "Empresa dedicada a la prestación de servicios de logística, gastronomía, housekeeping, hotelería y transporte en sitios remotos con más de 35 años de experiencia.",
-		link: "https://lygsrl.com/",
-		primary_color: "#AF261C",
-		tipo: "main",
-		logo: "lg.png"
+		title: "FAUD | Facultad de Arquitectura Urbanismo y Diseño",
+		body: "Formadora de arquitectos y diseñadores desde la reconstrucción de San Juan, con fuerte compromiso con el desarrollo urbano y social.",
+		link: "https://faud.unsj.edu.ar/",
+		primary_color: "#F7C31F",
+		logo: "faud.png"
+	},
+	{
+		title: "Fundación H.A. Barceló | Facultad de Medicina",
+		body: "Institución universitaria líder en Ciencias de la Salud, con sedes en todo el país y enfoque en formación, investigación y salud comunitaria.",
+		link: "https://www.barcelo.edu.ar/",
+		primary_color: "#1C3858",
+		logo: "fundacion_h_a_barcelo.png"
+	},
+	{
+		title: "Unión Industrial de San Juan",
+		body: "Organización que impulsa el desarrollo industrial sostenible en San Juan, articulando sectores productivos y promoviendo políticas públicas y proyectos estratégicos.",
+		link: "https://uisj.online/",
+		primary_color: "#5A330F",
+		logo: "union_industrial.png"
 	}
 ];
 
-const $$SectionMainSponsor = createComponent(($$result, $$props, $$slots) => {
-  const mainSponsors = Data.filter((s) => s.tipo === "main");
-  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="objectives"> ${mainSponsors.length > 0 && renderTemplate`${renderComponent($$result, "Title", $$Title, { "text": "Main Sponsor" })}
+const $$SectionSponsorInstitution = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15"> ${Data$2.length > 0 && renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Title", $$Title, { "text": "Aval Institucional" })} <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"> ${Data$2.map((sponsor) => renderTemplate`${renderComponent($$result2, "MainSponsor", $$SponsorInstitution, { "title": sponsor.title, "body": sponsor.body, "link": sponsor.link, "logo": sponsor.logo, "primary_color": sponsor.primary_color })}`)} </div> ` })}`} </section>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionSponsorInstitution.astro", void 0);
 
-                <div class="flex flex-col gap-10"> ${mainSponsors.map((sponsor) => renderTemplate`${renderComponent($$result, "MainSponsor", $$MainSponsor, { "title": sponsor.title, "body": sponsor.body, "link": sponsor.link, "logo": sponsor.logo, "primary_color": sponsor.primary_color })}`)} </div>`} </section>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionMainSponsor.astro", void 0);
+const $$Astro$1 = createAstro();
+const $$SponsorMain = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
+  Astro2.self = $$SponsorMain;
+  const { title, body, link, logo, primary_color } = Astro2.props;
+  return renderTemplate`${maybeRenderHead()}<div class="w-full rounded-2xl bg-shark-50 hover:bg-white transition-all shadow-md hover:shadow-xl hover:scale-[1.02] duration-300"> <div class="flex flex-col md:flex-row items-center"> <div class="md:w-1/3 w-full p-8 flex justify-center"> <img${addAttribute(`/images/sponsors_main/${logo}`, "src")}${addAttribute(title, "alt")} class="max-h-40 object-contain"> </div> <div class="md:w-2/3 w-full p-8"> <h3 class="text-2xl font-heading font-bold mb-4"${addAttribute(`color: ${primary_color}`, "style")}> ${title} </h3> <p class="font-body text-md text-shark-900 leading-relaxed"> ${body} </p> <div class="mt-6"> <a${addAttribute(link, "href")} target="_blank" class="inline-flex items-center gap-2 font-heading font-semibold text-lg px-4 py-2 rounded-full border transition-all"${addAttribute(`border-color: ${primary_color}; color: ${primary_color}`, "style")}>
+Visitar Web
+<svg width="16" height="16"${addAttribute(primary_color, "fill")} viewBox="0 0 24 24"> <path d="M14 3l7 7-1.41 1.41L16 7.83V20h-2V7.83l-3.59 3.58L9 10l7-7z"></path> </svg> </a> </div> </div> </div> </div>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/SponsorMain.astro", void 0);
+
+const Data$1 = [
+	{
+		title: "L&G | Logística y Gastronomía SRL",
+		body: "Soluciones integrales en logística, gastronomía, hotelería y transporte para operaciones en sitios remotos, con más de 35 años de experiencia.",
+		link: "https://lygsrl.com/",
+		primary_color: "#AF261C",
+		logo: "lg.png"
+	},
+	{
+		title: "Minas Argentinas S.A. | Gualcamayo",
+		body: "Operadora de la mina Gualcamayo en San Juan, especializada en oro y plata, con foco en innovación y desarrollo sostenible.",
+		link: "https://minasargentinas.com/",
+		primary_color: "#416658",
+		logo: "minas_argentinas.png"
+	},
+	{
+		title: "McEwen Mining | Los Azules",
+		body: "Desarrollo de un proyecto cuprífero a gran escala en San Juan, con enfoque en producción responsable y exportación internacional.",
+		link: "https://www.mcewenmining.com/operations/los-azules/default.aspx",
+		primary_color: "#104153",
+		logo: "los_azules.png"
+	},
+	{
+		title: "HUARPE | Seguridad Integral",
+		body: "Servicios de seguridad integral para minería, industrias, hospitales y más, con tecnología avanzada y enfoque en calidad y confianza.",
+		link: "https://huarpeseguridad.com/oficial/",
+		primary_color: "#02AD5E",
+		logo: "huarpe_seguridad_integral.png"
+	},
+	{
+		title: "VICUÑA",
+		body: "Promotores de un distrito cuprífero binacional con visión sostenible, impulsando el cobre como motor de la transición energética.",
+		link: "https://vicuna.com/",
+		primary_color: "#323B82",
+		logo: "vicunia.png"
+	}
+];
+
+const $$SectionSponsorMain = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15" id="sponsors"> ${Data$1.length > 0 && renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Title", $$Title, { "text": "Main Sponsor" })} <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8"> ${Data$1.map((sponsor) => renderTemplate`${renderComponent($$result2, "MainSponsor", $$SponsorMain, { "title": sponsor.title, "body": sponsor.body, "link": sponsor.link, "logo": sponsor.logo, "primary_color": sponsor.primary_color })}`)} </div> ` })}`} </section>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionSponsorMain.astro", void 0);
+
+const $$Astro = createAstro();
+const $$SponsorStandard = createComponent(($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$SponsorStandard;
+  const { title, body, link, logo, primary_color } = Astro2.props;
+  return renderTemplate`${maybeRenderHead()}<div class="w-full flex items-center justify-center p-4"> <a${addAttribute(link, "href")} target="_blank" class="flex justify-center"> <img${addAttribute(`/images/sponsors_standard/${logo}`, "src")}${addAttribute(title, "alt")} class="max-h-20 object-contain grayscale opacity-70 hover:opacity-100 transition"> </a> </div>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/elements/SponsorStandard.astro", void 0);
+
+const Data = [
+	{
+		title: "Bodega Merced Del Estero",
+		body: "Bodega familiar que elabora vinos finos de alta calidad, con identidad propia y foco en la satisfacción de sus clientes.",
+		link: "https://www.merceddelestero.com.ar/",
+		primary_color: "#886C51",
+		logo: "merced_del_estero.png"
+	},
+	{
+		title: "DREAM SRL | Transporte de pasajeros y carga para minería",
+		body: "Transporte logístico para minería con flota de nivel internacional y compromiso con el desarrollo de comunidades locales.",
+		link: "https://dreammin.com.ar/",
+		primary_color: "#FEE227",
+		logo: "dream_srl.png"
+	},
+	{
+		title: "20 de Junio S.A. | Transportes Automotores",
+		body: "Empresa con más de 75 años de trayectoria en transporte de pasajeros, con enfoque en calidad, innovación y servicio.",
+		link: "https://la20.com.ar/",
+		primary_color: "#80BC22",
+		logo: "20_de_junio.png"
+	},
+	{
+		title: "Finca Sierras Azules",
+		body: "Bodega boutique al pie de las Sierras Azules, especializada en varietales de alta calidad y experiencias enoturísticas.",
+		link: "https://www.fincasierrasazules.com.ar/",
+		primary_color: "#122744",
+		logo: "finca_sierras_azules.png"
+	},
+	{
+		title: "SJB | Finanzas Expertas",
+		body: "Agente líder en el mercado de capitales, con más de 20 años asesorando y gestionando inversiones con visión profesional.",
+		link: "https://www.sjb.com.ar/",
+		primary_color: "#166DF3",
+		logo: "sjb_finanzas_expertas.png"
+	},
+	{
+		title: "Bolsa de Comercio San Juan S.A",
+		body: "Institución clave para el desarrollo económico regional, promoviendo inversión, asesoramiento financiero y formación.",
+		link: "https://www.bolsasanjuan.com.ar/",
+		primary_color: "#166DF3",
+		logo: "bolsa_comercio_san_juan.png"
+	}
+];
+
+const $$SectionSponsorStandard = createComponent(($$result, $$props, $$slots) => {
+  return renderTemplate`${maybeRenderHead()}<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15"> ${Data.length > 0 && renderTemplate`${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "Title", $$Title, { "text": "Sponsors" })} <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8"> ${Data.map((sponsor) => renderTemplate`${renderComponent($$result2, "MainSponsor", $$SponsorStandard, { "title": sponsor.title, "body": sponsor.body, "link": sponsor.link, "logo": sponsor.logo, "primary_color": sponsor.primary_color })}`)} </div> ` })}`} </section>`;
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionSponsorStandard.astro", void 0);
 
 const $$Index = createComponent(($$result, $$props, $$slots) => {
-  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "SectionNavBar", $$SectionNavBar, {})} ${renderComponent($$result2, "SectionHero", SectionHero, { "client:load": true, "client:component-hydration": "load", "client:component-path": "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionHero.tsx", "client:component-export": "default" })} ${renderComponent($$result2, "SectionAbout", $$SectionAbout, {})} ${renderComponent($$result2, "SectionFeatures", $$SectionFeatures, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionObjetives", $$SectionObjetives, {})} ${renderComponent($$result2, "SectionOrganizers", $$SectionOrganizers, {})} ${renderComponent($$result2, "SectionMainSponsor", $$SectionMainSponsor, {})} ${renderComponent($$result2, "SectionPlace", $$SectionPlace, {})} ${renderComponent($$result2, "SectionSpeakers", $$SectionSpeakers, {})} ${renderComponent($$result2, "SectionTopics", $$SectionTopics, {})} ${renderComponent($$result2, "SectionTimeLine", $$SectionTimeLine, {})} ${renderComponent($$result2, "SectionContact", $$SectionContact, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionFooter", $$SectionFooter, {})} ` })}`;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, {}, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "SectionNavBar", $$SectionNavBar, {})} ${renderComponent($$result2, "SectionHero", SectionHero, { "client:load": true, "client:component-hydration": "load", "client:component-path": "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/components/sections/SectionHero.tsx", "client:component-export": "default" })} ${renderComponent($$result2, "SectionAbout", $$SectionAbout, {})} ${renderComponent($$result2, "SectionFeatures", $$SectionFeatures, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionObjetives", $$SectionObjetives, {})} ${renderComponent($$result2, "SectionOrganizers", $$SectionOrganizers, {})} ${renderComponent($$result2, "SectionSponsorMain", $$SectionSponsorMain, {})} ${renderComponent($$result2, "SectionSponsorStandar", $$SectionSponsorStandard, {})} ${renderComponent($$result2, "SectionSponsorInstitution", $$SectionSponsorInstitution, {})} ${renderComponent($$result2, "SectionPlace", $$SectionPlace, {})} ${renderComponent($$result2, "SectionSpeakers", $$SectionSpeakers, {})} ${renderComponent($$result2, "SectionTopics", $$SectionTopics, {})} ${renderComponent($$result2, "SectionTimeLine", $$SectionTimeLine, {})} ${renderComponent($$result2, "SectionContact", $$SectionContact, {})} ${renderComponent($$result2, "SectionAcent", $$SectionAcent, {})} ${renderComponent($$result2, "SectionFooter", $$SectionFooter, {})} ` })}`;
 }, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/index.astro", void 0);
 
 const $$file = "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/index.astro";

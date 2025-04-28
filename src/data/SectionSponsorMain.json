@@ -1,0 +1,37 @@
+[
+    {
+        "title": "L&G | Logística y Gastronomía SRL",
+        "body": "Soluciones integrales en logística, gastronomía, hotelería y transporte para operaciones en sitios remotos, con más de 35 años de experiencia.",
+        "link": "https://lygsrl.com/",
+        "primary_color": "#AF261C",
+        "logo": "lg.png"
+    },
+    {
+        "title": "Minas Argentinas S.A. | Gualcamayo",
+        "body": "Operadora de la mina Gualcamayo en San Juan, especializada en oro y plata, con foco en innovación y desarrollo sostenible.",
+        "link": "https://minasargentinas.com/",
+        "primary_color": "#416658",
+        "logo": "minas_argentinas.png"
+    },
+    {
+        "title": "McEwen Mining | Los Azules",
+        "body": "Desarrollo de un proyecto cuprífero a gran escala en San Juan, con enfoque en producción responsable y exportación internacional.",
+        "link": "https://www.mcewenmining.com/operations/los-azules/default.aspx",
+        "primary_color": "#104153",
+        "logo": "los_azules.png"
+    },
+    {
+        "title": "HUARPE | Seguridad Integral",
+        "body": "Servicios de seguridad integral para minería, industrias, hospitales y más, con tecnología avanzada y enfoque en calidad y confianza.",
+        "link": "https://huarpeseguridad.com/oficial/",
+        "primary_color": "#02AD5E",
+        "logo": "huarpe_seguridad_integral.png"
+    },
+    {
+        "title": "VICUÑA",
+        "body": "Promotores de un distrito cuprífero binacional con visión sostenible, impulsando el cobre como motor de la transición energética.",
+        "link": "https://vicuna.com/",
+        "primary_color": "#323B82",
+        "logo": "vicunia.png"
+    }
+]

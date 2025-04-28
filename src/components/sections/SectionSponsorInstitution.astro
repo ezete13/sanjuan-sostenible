@@ -1,0 +1,29 @@
+---
+import Title from "../elements/Title.astro";
+import SubTitle from "../elements/SubTitle.astro";
+import MainSponsor from "../elements/SponsorInstitution.astro";
+import Data from "../../data/SectionSponsorInstitution.json";
+
+//const mainSponsors = Data.filter((s) => s.tipo === "main");
+---
+
+<section class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15">
+    {
+        Data.length > 0 && (
+            <>
+                <Title text="Aval Institucional" />
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+                    {Data.map((sponsor) => (
+                        <MainSponsor
+                            title={sponsor.title}
+                            body={sponsor.body}
+                            link={sponsor.link}
+                            logo={sponsor.logo}
+                            primary_color={sponsor.primary_color}
+                        />
+                    ))}
+                </div>
+            </>
+        )
+    }
+</section>

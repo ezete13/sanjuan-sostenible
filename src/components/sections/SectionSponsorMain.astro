@@ -1,0 +1,29 @@
+---
+import Title from "../elements/Title.astro";
+import MainSponsor from "../elements/SponsorMain.astro";
+import Data from "../../data/SectionSponsorMain.json";
+---
+
+<section
+    class="mx-auto px-3 max-w-7xl xs:px-10 mb-10 scroll-mt-15"
+    id="sponsors"
+>
+    {
+        Data.length > 0 && (
+            <>
+                <Title text="Main Sponsor" />
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8">
+                    {Data.map((sponsor) => (
+                        <MainSponsor
+                            title={sponsor.title}
+                            body={sponsor.body}
+                            link={sponsor.link}
+                            logo={sponsor.logo}
+                            primary_color={sponsor.primary_color}
+                        />
+                    ))}
+                </div>
+            </>
+        )
+    }
+</section>

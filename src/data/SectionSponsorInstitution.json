@@ -1,0 +1,23 @@
+[
+    {
+        "title": "FAUD | Facultad de Arquitectura Urbanismo y Diseño",
+        "body": "Formadora de arquitectos y diseñadores desde la reconstrucción de San Juan, con fuerte compromiso con el desarrollo urbano y social.",
+        "link": "https://faud.unsj.edu.ar/",
+        "primary_color": "#F7C31F",
+        "logo": "faud.png"
+    },
+    {
+        "title": "Fundación H.A. Barceló | Facultad de Medicina",
+        "body": "Institución universitaria líder en Ciencias de la Salud, con sedes en todo el país y enfoque en formación, investigación y salud comunitaria.",
+        "link": "https://www.barcelo.edu.ar/",
+        "primary_color": "#1C3858",
+        "logo": "fundacion_h_a_barcelo.png"
+    },
+    {
+        "title": "Unión Industrial de San Juan",
+        "body": "Organización que impulsa el desarrollo industrial sostenible en San Juan, articulando sectores productivos y promoviendo políticas públicas y proyectos estratégicos.",
+        "link": "https://uisj.online/",
+        "primary_color": "#5A330F",
+        "logo": "union_industrial.png"
+    }
+]
