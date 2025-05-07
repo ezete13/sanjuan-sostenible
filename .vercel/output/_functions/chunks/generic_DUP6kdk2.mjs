@@ -1,5 +1,5 @@
 import { j as joinPaths, i as isRemotePath } from './internal_9jnW07Z7.mjs';
-import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, e as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, f as UnsupportedImageConversion, t as toStyleString, g as NoImageMetadata, F as FailedToFetchRemoteImageDimensions, h as ExpectedImageOptions, i as ExpectedNotESMImage, j as InvalidImageService, c as createComponent, a as createAstro, k as ImageMissingAlt, m as maybeRenderHead, l as addAttribute, s as spreadAttributes, r as renderTemplate, n as ExperimentalFontsNotEnabled, o as FontFamilyNotFound, u as unescapeHTML } from './astro/server_Di5e6SaK.mjs';
+import { A as AstroError, E as ExpectedImage, L as LocalImageUsedWrongly, e as MissingImageDimension, U as UnsupportedImageFormat, I as IncompatibleDescriptorOptions, f as UnsupportedImageConversion, t as toStyleString, g as NoImageMetadata, F as FailedToFetchRemoteImageDimensions, h as ExpectedImageOptions, i as ExpectedNotESMImage, j as InvalidImageService, c as createComponent, a as createAstro, k as ImageMissingAlt, m as maybeRenderHead, l as addAttribute, s as spreadAttributes, r as renderTemplate, n as ExperimentalFontsNotEnabled, o as FontFamilyNotFound, u as unescapeHTML } from './astro/server_Wd48Dooj.mjs';
 import 'clsx';
 import * as mime from 'mrmime';
 import 'kleur/colors';
@@ -1256,7 +1256,7 @@ async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
     const { default: service } = await import(
       // @ts-expect-error
-      './sharp_DYB0IVrH.mjs'
+      './sharp_hqEpd7hd.mjs'
     ).catch((e) => {
       const error = new AstroError(InvalidImageService);
       error.cause = e;
@@ -1428,7 +1428,7 @@ const $$Image = createComponent(async ($$result, $$props, $$slots) => {
   }
   const { class: className, ...attributes } = { ...additionalAttributes, ...image.attributes };
   return renderTemplate`${maybeRenderHead()}<img${addAttribute(image.src, "src")}${spreadAttributes(attributes)}${addAttribute(className, "class")}>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuansostenible/node_modules/astro/components/Image.astro", void 0);
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/node_modules/astro/components/Image.astro", void 0);
 
 const $$Astro$1 = createAstro();
 const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
@@ -1499,7 +1499,7 @@ const $$Picture = createComponent(async ($$result, $$props, $$slots) => {
     const srcsetAttribute = props.densities || !props.densities && !props.widths && !useResponsive ? `${image.src}${image.srcSet.values.length > 0 ? ", " + image.srcSet.attribute : ""}` : image.srcSet.attribute;
     return renderTemplate`<source${addAttribute(srcsetAttribute, "srcset")}${addAttribute(mime.lookup(image.options.format ?? image.src) ?? `image/${image.options.format}`, "type")}${spreadAttributes(sourceAdditionalAttributes)}>`;
   })}  <img${addAttribute(fallbackImage.src, "src")}${spreadAttributes(attributes)}${addAttribute(className, "class")}> </picture>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuansostenible/node_modules/astro/components/Picture.astro", void 0);
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/node_modules/astro/components/Picture.astro", void 0);
 
 const $$Astro = createAstro();
 const $$Font = createComponent(async ($$result, $$props, $$slots) => {
@@ -1517,7 +1517,7 @@ const $$Font = createComponent(async ($$result, $$props, $$slots) => {
     });
   }
   return renderTemplate`${preload && data.preloadData.map(({ url, type }) => renderTemplate`<link rel="preload"${addAttribute(url, "href")} as="font"${addAttribute(`font/${type}`, "type")} crossorigin>`)}<style>${unescapeHTML(data.css)}</style>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuansostenible/node_modules/astro/components/Font.astro", void 0);
+}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/node_modules/astro/components/Font.astro", void 0);
 
 const imageConfig = {"endpoint":{"route":"/_image"},"service":{"entrypoint":"astro/assets/services/sharp","config":{}},"domains":[],"remotePatterns":[],"experimentalResponsiveImages":false};
 							const getImage = async (options) => await getImage$1(options, imageConfig);
