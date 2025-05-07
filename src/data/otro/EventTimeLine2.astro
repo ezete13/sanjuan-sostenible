@@ -1,0 +1,43 @@
+---
+const { body, date } = Astro.props;
+---
+
+<div>
+    <div
+        class="text-sm leading-snug tracking-wide text-gray-800 mb-2 font-semibold"
+    >
+        {date}
+    </div>
+
+    {
+        Array.isArray(body) ? (
+            <ul class="space-y-4 text-gray-700">
+                {body.map((persona) => (
+                    <li class="flex items-start">
+                        <img
+                            src={`/images/countries/${persona.icono_pais}`}
+                            alt={persona.pais}
+                            class="w-8 h-8 rounded-full object-cover mr-3 mt-1"
+                        />
+                        <div>
+                            <div class="flex items-center space-x-2">
+                                <strong class="text-gray-900">
+                                    {persona.nombre}
+                                </strong>
+                                {/*  
+                                <span class="text-sm text-gray-600">
+                                    ({persona.pais})
+                                </span>*/}
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                {persona.universidad}
+                            </div>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+        ) : (
+            <p class="text-gray-700">{body}</p>
+        )
+    }
+</div>

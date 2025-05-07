@@ -1,0 +1,56 @@
+---
+import ElementItem from "../elements/ElementNavegacionItem.astro";
+
+type item = {
+    text: string;
+    icon: string;
+    href?: string;
+    sub_items: { text: string; href: string }[];
+};
+
+interface Props {
+    items: item[];
+}
+
+const { items } = Astro.props as Props;
+---
+
+<div class="navbar-menu relative z-50 hidden">
+    <div class="navbar-backdrop fixed inset-0 bg-aqua-950 opacity-60"></div>
+    <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-sm py-6 px-6 bg-shark-50 border-r overflow-y-auto font-heading sm:w-6/12 lg:w-3/12 transform transition-transform duration-300 -translate-x-full"
+    >
+        <div class="flex items-center mb-8">
+            <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                <img
+                    src="/images/brand/logo.png"
+                    alt="Logo San Juan Sostenible"
+                    class="h-10 md:h-11"
+                />
+            </a>
+            <button class="navbar-close">
+                <svg
+                    class="h-6 w-6 text-shark-950 cursor-pointer hover:text-shark-600"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+            </button>
+        </div>
+        <div>
+            <ul class="uppercase">
+                {
+                    items.map((item) => (
+                        <ElementItem item={item} isMobile={true} />
+                    ))
+                }
+            </ul>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,61 @@
+---
+interface Participant {
+    name: string;
+    institution: string;
+    country: string;
+    flag: string;
+    photo?: string;
+}
+
+interface Props {
+    time: string;
+    panel: string;
+    participants: Participant[];
+}
+
+const { time, panel, participants }: Props = Astro.props;
+---
+
+<div class="bg-white rounded-2xl shadow-md p-6">
+    <div
+        class="font-heading font-bold text-shark-950 leading-6 text-lg sm:text-xl lg:text-2xl mb-3"
+    >
+        {time}
+    </div>
+    <h4
+        class="font-heading font-bold text-nature-950 leading-6 text-md sm:text-lg lg:text-xl mb-10"
+    >
+        {panel}
+    </h4>
+
+    {
+        participants.length > 0 ? (
+            <ul class="space-y-8">
+                {participants.map((p) => (
+                    <li class="flex items-start gap-4">
+                        <img
+                            src={`/images/countries/${p.flag}`}
+                            alt={p.country}
+                            class="w-10 h-10 mt-1 flex-shrink-0 rounded-full object-cover"
+                        />
+                        <div>
+                            <p class="font-heading font-bold text-shark-950 leading-6 text-sm sm:text-md lg:text-lg">
+                                {p.name}
+                            </p>
+                            <p class="font-body text-sm text-gray-600">
+                                {p.institution}
+                            </p>
+                            <p class="font-body text-sm text-gray-600">
+                                {p.country}
+                            </p>
+                        </div>
+                    </li>
+                ))}
+            </ul>
+        ) : (
+            <p class="text-gray-500 italic">
+                Espacio para networking y descanso.
+            </p>
+        )
+    }
+</div>

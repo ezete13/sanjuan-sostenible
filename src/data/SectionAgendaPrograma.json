@@ -1,0 +1,122 @@
+[
+    {
+        "title_section": "Programa",
+        "subtitle_section": "",
+        "body_section": "",
+        "id_section": "programa",
+        "elements": [
+            {
+                "day": "Jueves 15 de Mayo 2025",
+                "events": [
+                    {
+                        "title": "Acreditación",
+                        "body": "Recepción de asistentes y entrega de materiales.",
+                        "date": "09:00",
+                        "icon": "fa-user-check"
+                    },
+                    {
+                        "title": "Acto de Apertura",
+                        "body": "Palabras de bienvenida de la Rectora UCCuyo, Vicerrector",
+                        "date": "09:45",
+                        "icon": "fa-microphone"
+                    },
+                    {
+                        "title": "Panel 1: Sostenibilidad, modelo de gestión",
+                        "body": "Discusión sobre estrategias para la sostenibilidad organizacional.",
+                        "date": "10:30",
+                        "icon": "fa-users"
+                    },
+                    {
+                        "title": "Coffe Break",
+                        "body": "Espacio para networking y descanso.",
+                        "date": "11:15",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                        "title": "Exposiciones de Trabajos",
+                        "body": "Investigadores presentarán sus estudios sobre sostenibilidad y gestión.",
+                        "date": "11:30",
+                        "icon": "fa-file-alt"
+                    },
+                    {
+                        "title": "Conferencia Magistral",
+                        "body": "PhD. Frederic Marimon hablará sobre estrategias de calidad y sostenibilidad.",
+                        "date": "12:10",
+                        "icon": "fa-chalkboard-teacher"
+                    },
+                    {
+                        "title": "Exposiciones de Trabajos",
+                        "body": "Debate y presentaciones de proyectos de sostenibilidad.",
+                        "date": "15:00",
+                        "icon": "fa-file-alt"
+                    },
+                    {
+                        "title": "Panel 2: La sostenibilidad en el sector empresarial",
+                        "body": "Enfoque en prácticas sostenibles en empresas y su impacto.",
+                        "date": "16:00",
+                        "icon": "fa-users"
+                    },
+                    {
+                        "title": "Coffe Break",
+                        "body": "Espacio para networking y descanso.",
+                        "date": "17:00",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                        "title": "Panel 3: La sostenibilidad en los sectores productivos",
+                        "body": "Cómo la sostenibilidad transforma industrias clave.",
+                        "date": "17:30",
+                        "icon": "fa-users"
+                    }
+                ]
+            },
+            {
+                "day": "Viernes 16 de Mayo 2025",
+                "events": [
+                    {
+                        "title": "Exposiciones de Trabajos",
+                        "body": "Nuevas investigaciones en el campo de la sostenibilidad.",
+                        "date": "09:30",
+                        "icon": "fa-file-alt"
+                    },
+                    {
+                        "title": "Panel 4: Políticas de Sostenibilidad",
+                        "body": "Discusión sobre regulaciones y políticas ambientales.",
+                        "date": "10:30",
+                        "icon": "fa-users"
+                    },
+                    {
+                        "title": "Coffe Break",
+                        "body": "Espacio para networking y descanso.",
+                        "date": "11:30",
+                        "icon": "fa-coffee"
+                    },
+                    {
+                        "title": "Panel 5: Sostenibilidad en la Educación",
+                        "body": "Estrategias educativas para fomentar la sostenibilidad.",
+                        "date": "12:00",
+                        "icon": "fa-users"
+                    },
+                    {
+                        "title": "Exposiciones de Trabajos",
+                        "body": "Investigaciones sobre sostenibilidad y su impacto.",
+                        "date": "15:00",
+                        "icon": "fa-file-alt"
+                    },
+                    {
+                        "title": "Panel 6: Medición y comunicación de la sostenibilidad",
+                        "body": "Métodos para evaluar el impacto sostenible en organizaciones.",
+                        "date": "16:00",
+                        "icon": "fa-users"
+                    },
+                    {
+                        "title": "Cierre del Congreso",
+                        "body": "Palabras finales de la Rectora y despedida del evento.",
+                        "date": "17:00",
+                        "icon": "fa-door-closed"
+                    }
+                ]
+            }
+        ]
+    }
+]

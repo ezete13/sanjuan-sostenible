@@ -1,0 +1,99 @@
+[
+    {
+        "main_text_nav": "Inicio",
+        "main_icon_nav": "inicio.svg",
+        "json_data": "SeccionInicio.json"
+    },
+    {
+        "main_text_nav": "Edición 2025",
+        "main_title_section": "Edición 2025: Hacia una nueva visión",
+        "sub_sections": [],
+        "json_data": "SectionEdicion2025.json"
+    },
+    {
+        "main_text_nav": "Sobre el Congreso",
+        "main_title_section": "Conocé sobre el congreso y nuestros ejes principales",
+        "sub_sections": [
+            {
+                "sub_item_nav": "Introducción",
+                "json_data": "SectionAcercaDeIntroduccion.json"
+            },
+            {
+                "sub_item_nav": "Claves",
+                "json_data": "SectionAcercaDeClaves.json"
+            },
+            {
+                "sub_item_nav": "Objetivos",
+                "json_data": "SectionAcercaDeObjetivos.json"
+            },
+            {
+                "sub_item_nav": "Organizadores",
+                "json_data": "SectionAcercaDeOrganizadores.json"
+            }
+        ]
+    },
+    {
+        "main_text_nav": "Patrocinios",
+        "main_title_section": "Apoyo Institucional y Patrocinios",
+        "sub_sections": [
+            {
+                "sub_item_nav": "Destacados",
+                "json_data": "SectionPatrociniosDestacados.json"
+            },
+            {
+                "sub_item_nav": "Oficiales",
+                "json_data": "SectionPatrociniosOficiales.json"
+            },
+            {
+                "sub_item_nav": "Institucionales",
+                "sub_title_section": "Avales Institucionales",
+                "json_data": "SectionPatrociniosInstitucionales.json"
+            }
+        ]
+    },
+    {
+        "main_text_nav": "Agenda",
+        "main_title_section": "Agenda del Congreso",
+        "sub_sections": [
+            {
+                "sub_item_nav": "Temáticas",
+                "json_data": "SectionAgendaTematicas.json"
+            },
+            {
+                "sub_item_nav": "Expositores",
+                "json_data": "SectionAgendaExpositores.json"
+            },
+            {
+                "sub_item_nav": "Programa",
+                "json_data": "SectionAgendaPrograma.json"
+            },
+            {
+                "sub_item_nav": "Ubicacion",
+                "json_data": "SectionAgendaUbicacion.json"
+            }
+        ]
+    },
+    {
+        "main_text_nav": "Contacto",
+        "main_title_section": "¿Tienes una consulta o propuesta?",
+        "main_text_body": "Si querés comunicarte con la organización del congreso, estamos disponibles para escucharte. Podés enviarnos tus dudas, sugerencias o ideas.",
+        "sub_sections": [],
+        "json_data": ""
+    },
+    {
+        "main_text_nav": "Ediciones Anteriores",
+        "main_title_section": "Lo que dejó el Congreso",
+        "sub_sections": [
+            {
+                "sub_item_nav": "Edición 2024",
+                "sub_title_section": "Resumen de la edición anterior",
+                "json_data": ""
+            },
+            {
+                "sub_item_nav": "Galería",
+                "sub_title_section": "Momentos destacados en imágenes",
+                "json_data": ""
+            }
+        ]
+    }
+]

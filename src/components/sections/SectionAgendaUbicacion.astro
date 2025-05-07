@@ -1,0 +1,53 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementBasicText from "../elements/ElementBasicText.astro";
+
+import image from "../../../public/images/anchipurac.png";
+import image2 from "../../../public/images/bg-acent.jpeg";
+import Button from "../elements/Button.astro";
+
+import Data from "../../data/SectionAgendaUbicacion.json";
+
+const content = Data[0];
+---
+
+<section class="mx-auto mb-10 scroll-mt-15" id={content.id_section}>
+    <div
+        class="w-full bg-gradient-to-r from-nature-200 to-sun-200 py-10"
+        id="place"
+    >
+        <div class="mx-auto px-5">
+            <div
+                class="mx-auto max-w-6xl flex flex-col md:flex-row lg:items-center md:gap-6 py-6 text-center md:text-left"
+            >
+                <!-- Imagen del lugar -->
+                <img
+                    src={image.src}
+                    alt="Centro Ambiental Anchipurac"
+                    class="w-2/3 md:w-1/3 lg:w-1/4 mx-auto md:mx-0 md:mr-4 my-4"
+                />
+
+                <!-- Contenedor de texto -->
+                <div class="md:w-2/3 lg:w-3/4">
+                    <h2
+                        class="font-heading font-bold tracking-tight text-aqua-950 md:mx-auto text-xl sm:text-2xl lg:text-3xl"
+                    >
+                        {content.subtitle_section}
+                    </h2>
+                    <p
+                        class="font-body text-shark-800 text-md sm:text-lg lg:text-xl mt-4"
+                    >
+                        {content.body_section}
+                    </p>
+                    <Button
+                        content={content.btn_section}
+                        href={content.btn_url}
+                        target="_blank"
+                        aling="start"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

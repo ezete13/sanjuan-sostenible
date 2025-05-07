@@ -1,0 +1,16 @@
+---
+const { title, link, logo, primary_color } = Astro.props;
+---
+
+<a
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+    class="group block bg-white rounded-2xl shadow-sm hover:shadow-lg transition px-4 py-4 md:px-5 md:py-5 h-[6rem] md:h-[8rem] w-full text-center"
+>
+    <img
+        src={`/images/SectionPatrociniosOficiales/${logo}`}
+        alt={title}
+        class="h-full mx-auto object-contain grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition duration-300"
+    />
+</a>

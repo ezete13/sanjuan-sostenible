@@ -1,0 +1,32 @@
+---
+import Button from "../elements/Button.astro";
+
+import Data from "../../data/SectionContacto.json";
+
+const content = Data[0];
+---
+
+<section class="mx-auto scroll-mt-15" id="contacto">
+    <div class="w-full bg-gradient-to-r from-nature-200 to-sun-200">
+        <div id="contact" class="py-16 px-6 md:px-20 lg:px-32">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2
+                    class="font-heading font-bold tracking-tight text-aqua-950 md:mx-auto text-xl sm:text-2xl lg:text-3xl"
+                >
+                    {content.subtitle_section}
+                </h2>
+                <p
+                    class="font-body text-shark-800 text-md sm:text-lg lg:text-xl mt-4"
+                >
+                    {content.body_section}
+                </p>
+                <Button
+                    content={content.btn_section}
+                    href={content.btn_url}
+                    target="_blank"
+                    aling="center"
+                />
+            </div>
+        </div>
+    </div>
+</section>

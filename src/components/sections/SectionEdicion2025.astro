@@ -1,0 +1,71 @@
+---
+import Data from "../../data/SectionEdicion2025.json";
+import Button from "../elements/Button.astro";
+import Img from "../../../public/images/bg-acent.webp";
+import ElementBasicButtonDisable from "../elements/ElementBasicButtonDisable.astro";
+---
+
+<section class="mx-auto mb-10 scroll-mt-15" id={Data.id_section}>
+    <div class="relative w-full">
+        <!-- Imagen de fondo -->
+        <div
+            class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+            style={`background-image: url(${Img.src});`}
+        >
+        </div>
+
+        <!-- Overlay degradado oscuro -->
+        <div
+            class="absolute inset-0 bg-gradient-to-b from-shark-950/90 to-aqua-950/80 z-10"
+        >
+        </div>
+
+        <!-- Contenido -->
+        <div
+            class="relative z-20 px-4 py-16 md:py-24 text-center max-w-6xl mx-auto"
+        >
+            <div
+                class="font-heading font-semibold text-shark-100 text-md md:text-xl mb-10"
+            >
+                <p>{Data.bigtitle1}</p>
+                <p>{Data.bigtitle2}</p>
+            </div>
+
+            <div class="w-24 h-1 bg-nature-600 mx-auto mb-3"></div>
+
+            <h3
+                class="font-heading text-2xl font-semibold text-white md:text-3xl"
+            >
+                {Data.title}
+            </h3>
+
+            <h2
+                class="font-heading text-3xl font-bold text-white uppercase md:text-4xl"
+            >
+                {Data.subtitle}
+            </h2>
+
+            <div class="w-24 h-1 bg-nature-600 mx-auto my-3"></div>
+
+            <p class="font-body font-semibold text-lg text-sun-300">
+                {Data.date}
+            </p>
+            <p class="font-body font-semibold text-lg text-sun-300 mb-6">
+                {Data.place}
+            </p>
+            <!-- 
+            <Button
+                content={Data.btn_section}
+                href={Data.btn_url}
+                target="_blank"
+                aling="center"
+            />-->
+            <ElementBasicButtonDisable
+                content={Data.btn_section}
+                href={Data.btn_url}
+                target="_blank"
+                aling="center"
+            />
+        </div>
+    </div>
+</section>

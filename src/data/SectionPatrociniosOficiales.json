@@ -1,0 +1,52 @@
+[
+    {
+        "title_section": "Patrocinadores Oficiales",
+        "subtitle_section": "Actores estratégicos que respaldan el desarrollo sustentable del evento",
+        "body_section": "Empresas y organizaciones comprometidas con la sostenibilidad hacen posible este encuentro a través de su apoyo como patrocinadores oficiales. Cada una aporta valor desde su sector, fortaleciendo las redes que construyen un futuro mejor para San Juan.",
+        "id_section": "oficiales",
+        "elements": [
+            {
+                "title": "DREAM SRL | Transporte de pasajeros y carga para minería",
+                "body": "Transporte logístico para minería con flota de nivel internacional y compromiso con el desarrollo de comunidades locales.",
+                "link": "https://dreammin.com.ar/",
+                "primary_color": "#FEE227",
+                "logo": "dream_srl.png"
+            },
+            {
+                "title": "Bolsa de Comercio San Juan S.A",
+                "body": "Institución clave para el desarrollo económico regional, promoviendo inversión, asesoramiento financiero y formación.",
+                "link": "https://www.bolsasanjuan.com.ar/",
+                "primary_color": "#166DF3",
+                "logo": "bolsa_comercio_san_juan.png"
+            },
+            {
+                "title": "20 de Junio S.A. | Transportes Automotores",
+                "body": "Empresa con más de 75 años de trayectoria en transporte de pasajeros, con enfoque en calidad, innovación y servicio.",
+                "link": "https://la20.com.ar/",
+                "primary_color": "#80BC22",
+                "logo": "20_de_junio.png"
+            },
+            {
+                "title": "Finca Sierras Azules",
+                "body": "Bodega boutique al pie de las Sierras Azules, especializada en varietales de alta calidad y experiencias enoturísticas.",
+                "link": "https://www.fincasierrasazules.com.ar/",
+                "primary_color": "#122744",
+                "logo": "finca_sierras_azules.png"
+            },
+            {
+                "title": "SJB | Finanzas Expertas",
+                "body": "Agente líder en el mercado de capitales, con más de 20 años asesorando y gestionando inversiones con visión profesional.",
+                "link": "https://www.sjb.com.ar/",
+                "primary_color": "#166DF3",
+                "logo": "sjb_finanzas_expertas.png"
+            },
+            {
+                "title": "Bodega Merced Del Estero",
+                "body": "Bodega familiar que elabora vinos finos de alta calidad, con identidad propia y foco en la satisfacción de sus clientes.",
+                "link": "https://www.merceddelestero.com.ar/",
+                "primary_color": "#886C51",
+                "logo": "merced_del_estero.png"
+            }
+        ]
+    }
+]

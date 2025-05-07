@@ -1,0 +1,44 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementBasicText from "../elements/ElementBasicText.astro";
+import ElementExpositor from "../elements/ElementAgendaExpositor.astro";
+import Data from "../../data/SectionAgendaExpositores.json";
+
+const content = Data[0];
+---
+
+<section
+    class="mx-auto mb-10 scroll-mt-15
+        max-w-full px-5
+        sm:px-10
+        md:px-20
+        lg:max-w-6xl"
+    id={content.id_section}
+>
+    <div class="mt-15">
+        <ElementBasicTitle text={content.title_section} />
+    </div>
+    <div class="mt-18">
+        <ElementBasicSubTitle text={content.subtitle_section} />
+    </div>
+    <div class="mt-5">
+        <ElementBasicText text={content.body_section} />
+    </div>
+
+    <div class="grid gap-10 grid-cols-2 lg:grid-cols-3 mt-10">
+        {
+            content.elements.map((item) => (
+                <ElementExpositor
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    body={item.body}
+                    country={item.country}
+                    altc={item.altc}
+                    image={item.image}
+                    alti={item.alti}
+                />
+            ))
+        }
+    </div>
+</section>

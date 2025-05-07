@@ -1,0 +1,11 @@
+[
+    {
+        "title_section": "Contactanos",
+        "subtitle_section": "¿Tienes una consulta o propuesta?",
+        "body_section": "Si querés comunicarte con la organización del congreso, estamos disponibles para escucharte. Podés enviarnos tus dudas, sugerencias o ideas.",
+        "id_section": "contacto",
+        "btn_section": "Enviar correo",
+        "btn_url": "mailto:congreso.sostenibilidad@uccuyo.edu.ar",
+        "elements": []
+    }
+]

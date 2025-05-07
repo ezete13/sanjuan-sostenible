@@ -1,0 +1,40 @@
+[
+    {
+        "title_section": "Objetivos",
+        "subtitle_section": "Tenemos objetivos claros: ¡Impulsar, conectar, promover, inspirar!",
+        "body_section": "Este evento está diseñado para líderes y visionarios que buscan transformar el futuro mediante la innovación, la sostenibilidad y la colaboración estratégica. Con un enfoque único en el desarrollo regional, brindamos una plataforma para explorar oportunidades de crecimiento, compartir conocimientos de vanguardia y fortalecer alianzas clave. A continuación, te presentamos los pilares que hacen de este congreso una experiencia transformadora para empresas, gobiernos y organizaciones:",
+        "id_section": "objetivos",
+        "elements": [
+            {
+                "title": "Impulsar la transformación sostenible",
+                "body": "Reunir a los principales actores del ámbito académico, empresarial y gubernamental para diseñar estrategias que consoliden a San Juan como un referente en sostenibilidad y economía verde.",
+                "image": "conexion.svg"
+            },
+            {
+                "title": "Conectar educación y acción",
+                "body": "Fortalecer el papel de las universidades como laboratorios de ideas y soluciones, promoviendo la investigación y la formación de profesionales que lideren la transición sostenible.",
+                "image": "educacion.svg"
+            },
+            {
+                "title": "Articular sectores estratégicos",
+                "body": "Crear sinergias entre la academia, el sector productivo y el Estado para fomentar la inversión en tecnologías limpias, energías renovables, economía circular y políticas de desarrollo sostenible.",
+                "image": "sectores.svg"
+            },
+            {
+                "title": "Promover la innovación con impacto",
+                "body": "Explorar y visibilizar proyectos de vanguardia que transformen desafíos ambientales y sociales en oportunidades de desarrollo para la provincia y la región.",
+                "image": "innovacion.svg"
+            },
+            {
+                "title": "Inspirar y movilizar",
+                "body": "A través de paneles de expertos, casos de éxito y espacios de networking, buscamos motivar a las empresas y organizaciones a integrar la sostenibilidad en su ADN y generar impacto positivo en la comunidad.",
+                "image": "inspirar.svg"
+            },
+            {
+                "title": "San Juan como modelo de desarrollo",
+                "body": "San Juan tiene el potencial de ser un modelo de desarrollo equilibrado, inclusivo y responsable. Este congreso es la oportunidad de unir fuerzas para acelerar el cambio.",
+                "image": "modelo.svg"
+            }
+        ]
+    }
+]

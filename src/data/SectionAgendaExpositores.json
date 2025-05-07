@@ -1,0 +1,118 @@
+[
+    {
+        "title_section": "Expositores Internacionales",
+        "subtitle_section": "Referentes globales en sostenibilidad, innovación y desarrollo estratégico",
+        "body_section": "El Congreso contará con la participación de destacados referentes académicos y profesionales de América Latina, Europa y Asia, que compartirán sus conocimientos, experiencias y visiones sobre sostenibilidad, innovación, economía circular, educación y gestión ambiental. Cada expositor aporta una mirada única que enriquecerá el diálogo y ofrecerá herramientas valiosas para enfrentar los desafíos actuales y futuros del desarrollo sostenible.",
+        "id_section": "expositores",
+        "elements": [
+            {
+                "title": "PhD Frederic Marimon",
+                "subtitle": "Universidad Internacional de Cataluña",
+                "body": "Especialista en gestión de calidad y rendimiento organizacional.",
+                "country": "es.svg",
+                "altc": "España",
+                "image": "images/speakers/frederic_marimon.jpg",
+                "alti": "Foto de PhD Frederic Marimon"
+            },
+            {
+                "title": "MBA Laura Accifonte",
+                "subtitle": "Coordinadora de la Comisión Permanente de Sostenibilidad Latinoamericana de Emisores de Información Financiera",
+                "body": "Experta en sostenibilidad y reportes financieros en Latinoamérica.",
+                "country": "lx.svg",
+                "altc": "Latinoamérica",
+                "image": "images/speakers/laura_accifonte.jpg",
+                "alti": "Foto de MBA Laura Accifonte"
+            },
+            {
+                "title": "PhD Abraham Apaza",
+                "subtitle": "Universidad Nacional Jorge Basadre Grohmann",
+                "body": "Investigador en sostenibilidad y desarrollo económico en Perú.",
+                "country": "pe.svg",
+                "altc": "Perú",
+                "image": "images/speakers/abraham_apaza.jpg",
+                "alti": "Foto de PhD Abraham Apaza"
+            },
+            {
+                "title": "PhD Jasmina Berbegal",
+                "subtitle": "Universidad Politécnica de Cataluña",
+                "body": "Especialista en innovación y estrategias empresariales.",
+                "country": "es.svg",
+                "altc": "España",
+                "image": "images/speakers/jasmina_berbegal.jpg",
+                "alti": "Foto de PhD Jasmina Berbegal"
+            },
+            {
+                "title": "MBA NaLyan",
+                "subtitle": "Universidad Politécnica de Cataluña",
+                "body": "Experta en negocios internacionales y emprendimiento.",
+                "country": "cn.svg",
+                "altc": "China",
+                "image": "images/speakers/nalyan.jpg",
+                "alti": "Foto de MBA NaLyan"
+            },
+            {
+                "title": "PhD Didier Grimalt",
+                "subtitle": "Universidad Politécnica de Cataluña",
+                "body": "Investigador en estrategias de sostenibilidad y gestión ambiental.",
+                "country": "fr.svg",
+                "altc": "Francia",
+                "image": "images/speakers/didier_grimalt.jpg",
+                "alti": "Foto de PhD Didier Grimalt"
+            },
+            {
+                "title": "PhD Jordi Segalas",
+                "subtitle": "Universidad Politécnica de Cataluña",
+                "body": "Especialista en educación para la sostenibilidad y diseño ecológico.",
+                "country": "es.svg",
+                "altc": "España",
+                "image": "images/speakers/jordi_segalas.jpg",
+                "alti": "Foto de PhD Jordi Segalas"
+            },
+            {
+                "title": "PhD Valmir Martins",
+                "subtitle": "Universidad Autónoma de Chile",
+                "body": "Investigador en economía circular y desarrollo sustentable.",
+                "country": "cl.svg",
+                "altc": "Chile",
+                "image": "images/speakers/valmir_martins.jpg",
+                "alti": "Foto de PhD Valmir Martins"
+            },
+            {
+                "title": "PhD José Luis Soriano",
+                "subtitle": "Universidad de Guadalajara",
+                "body": "Experto en desarrollo empresarial y economía sustentable.",
+                "country": "mx.svg",
+                "altc": "México",
+                "image": "images/speakers/jose_luis_soriano.jpg",
+                "alti": "Foto de PhD José Luis Soriano"
+            },
+            {
+                "title": "MBA Marcela Vergara",
+                "subtitle": "Universidad Internacional de Cataluña",
+                "body": "Especialista en innovación y gestión estratégica de empresas.",
+                "country": "cl.svg",
+                "altc": "Chile",
+                "image": "images/speakers/marcela_vergara.jpg",
+                "alti": "Foto de MBA Marcela Vergara"
+            },
+            {
+                "title": "Ricardo Faria",
+                "subtitle": "Representante de ZeoGroup",
+                "body": "Especialista en soluciones tecnológicas con zeolitas naturales.",
+                "country": "br.svg",
+                "altc": "Brasil",
+                "image": "images/speakers/ricardo_faria.jpg",
+                "alti": "Foto de Ricardo Faria"
+            },
+            {
+                "title": "Martin Lázzaro",
+                "subtitle": "Representante INZA",
+                "body": "Especialista en International Natural Zeolite Association.",
+                "country": "ar.svg",
+                "altc": "Argentina",
+                "image": "images/speakers/martin_lazzaro.jpg",
+                "alti": "Foto de Martin Lázzaro"
+            }
+        ]
+    }
+]

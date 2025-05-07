@@ -1,0 +1,43 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementBasicText from "../elements/ElementBasicText.astro";
+import ElementInstitucion from "../elements/ElementPatrocinioInstitucion.astro";
+import Data from "../../data/SectionPatrociniosInstitucionales.json";
+
+const content = Data[0];
+---
+
+<section
+    class="mx-auto mb-10 scroll-mt-15
+        max-w-full px-5
+        sm:px-10
+        md:px-20
+        lg:max-w-6xl
+        pb-5 md:pb-10"
+    id={content.id_section}
+>
+    <div class="mt-15">
+        <ElementBasicSubTitle text={content.subtitle_section} />
+    </div>
+    <div class="mt-5">
+        <ElementBasicText text={content.body_section} />
+    </div>
+    {
+        Data.length > 0 && (
+            <>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-3 lg:gap-10 mt-10">
+                    {content.elements.map((item) => (
+                        <ElementInstitucion
+                            title={item.title}
+                            body={item.body}
+                            link={item.link}
+                            logo={item.logo}
+                            primary_color={item.primary_color}
+                        />
+                    ))}
+                </div>
+            </>
+        )
+    }
+</section>

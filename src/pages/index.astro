@@ -1,40 +1,48 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import SectionNavBar from "../components/sections/SectionNavBar.astro";
-import SectionHero from "../components/sections/SectionHero.tsx";
-import SectionAbout from "../components/sections/SectionAbout.astro";
-import SectionTopics from "../components/sections/SectionTopics.astro";
+import SectionNavegacionEscritorio from "../components/sections/SectionNavegacionEscritorio.astro";
+import SectionInicio from "../components/sections/SectionInicio";
+import SectionEdicion2025 from "../components/sections/SectionEdicion2025.astro";
+import SectionAcercaDeIntroduccion from "../components/sections/SectionAcercaDeIntroduccion.astro";
+import SectionAcercaDeClaves from "../components/sections/SectionAcercaDeClaves.astro";
+import SectionAcercaDeObjetivos from "../components/sections/SectionAcercaDeObjetivos.astro";
+import SectionAcercaDeOrganizadores from "../components/sections/SectionAcercaDeOrganizadores.astro";
+import SectionPatrociniosDestacados from "../components/sections/SectionPatrociniosDestacados.astro";
+import SectionPatrociniosOficiales from "../components/sections/SectionPatrociniosOficiales.astro";
+import SectionPatrociniosInstitucionales from "../components/sections/SectionPatrociniosInstitucionales.astro";
+import SectionAgendaUbicacion from "../components/sections/SectionAgendaUbicacion.astro";
+import SectionAgendaTematicas from "../components/sections/SectionAgendaTematicas.astro";
+import SectionAgendaExpositores from "../components/sections/SectionAgendaExpositores.astro";
+import SectionAgendaPrograma from "../components/sections/SectionAgendaPrograma.astro";
+import SectionAgendaCronograma from "../components/sections/SectionAgendaCronograma.astro";
+import SectionContacto from "../components/sections/SectionContacto.astro";
 import SectionFooter from "../components/sections/SectionFooter.astro";
-import SectionTimeLine from "../components/sections/SectionTimeLine.astro";
+
 import "../styles/global.css";
-import SectionOrganizers from "../components/sections/SectionOrganizers.astro";
-import SectionSpeakers from "../components/sections/SectionSpeakers.astro";
-import SectionPlace from "../components/sections/SectionPlace.astro";
-import SectionAcent from "../components/sections/SectionAcent.astro";
-import SectionFeatures from "../components/sections/SectionFeatures.astro";
-import SectionObjetives from "../components/sections/SectionObjetives.astro";
-import SectionContact from "../components/sections/SectionContact.astro";
-import SectionSponsorInstitution from "../components/sections/SectionSponsorInstitution.astro";
-import SectionSponsorMain from "../components/sections/SectionSponsorMain.astro";
-import SectionSponsorStandar from "../components/sections/SectionSponsorStandard.astro";
+import ElementBasicButtonToTop from "../components/elements/ElementBasicButtonToTop.astro";
 ---
 
 <Layout>
-	<SectionNavBar />
-	<SectionHero client:load />
-	<SectionAbout />
-	<SectionFeatures />
-	<SectionAcent />
-	<SectionObjetives />
-	<SectionOrganizers />
-	<SectionSponsorMain />
-	<SectionSponsorStandar />
-	<SectionSponsorInstitution />
-	<SectionPlace />
-	<SectionSpeakers />
-	<SectionTopics />
-	<SectionTimeLine />
-	<SectionContact />
-	<SectionAcent />
+	<ElementBasicButtonToTop />
+	<SectionNavegacionEscritorio />
+	<SectionInicio client:load />
+	<SectionAcercaDeIntroduccion />
+	<SectionAcercaDeClaves />
+	<SectionAcercaDeObjetivos />
+	<SectionAcercaDeOrganizadores />
+	<SectionEdicion2025 />
+	<SectionPatrociniosDestacados />
+	<SectionPatrociniosOficiales />
+	<SectionPatrociniosInstitucionales />
+	<SectionAgendaUbicacion />
+	<SectionAgendaTematicas />
+	<SectionAgendaExpositores />
+	<SectionAgendaPrograma />
+	<SectionAgendaCronograma />
+	<SectionContacto />
 	<SectionFooter />
+	<!--
+	
+	
+	-->
 </Layout>

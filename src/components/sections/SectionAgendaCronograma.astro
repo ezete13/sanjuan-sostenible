@@ -1,0 +1,41 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementAgendaCronograma from "../elements/ElementAgendaCronograma.astro";
+import Data from "../../data/SectionAgendaCronograma.json";
+
+const content = Data;
+---
+
+<section
+    class="mx-auto mb-10 scroll-mt-15
+        max-w-full px-5
+        sm:px-10
+        md:px-20
+        lg:max-w-6xl
+        pb-5 md:pb-10"
+    id="cronograma"
+>
+    <div class="mt-15">
+        <ElementBasicTitle text="Cronograma Completo" />
+    </div>
+
+    {
+        content.map((day) => (
+            <div class="mt-10">
+                <div class="m-10 lg:m-15">
+                    <ElementBasicSubTitle text={day.date} />
+                </div>
+                <div class="space-y-8">
+                    {day.schedule.map((item) => (
+                        <ElementAgendaCronograma
+                            time={item.time}
+                            panel={item.panel}
+                            participants={item.participants}
+                        />
+                    ))}
+                </div>
+            </div>
+        ))
+    }
+</section>

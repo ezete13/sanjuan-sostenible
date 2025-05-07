@@ -140,7 +140,7 @@ html, body {
 }
 
 .container-timeline {
-  padding: 15px 30px;
+  padding: 10px 15px;
   position: relative;
   background: inherit;
   width: 50%;
@@ -214,7 +214,7 @@ html, body {
   display: inline-block;
   width: 40px;
   height: 40px;
-  padding: 9px 0;
+  padding: 6px 0;
   top: calc(50% - 20px);
   background: var(--color-nature-950);
   border: 3px solid var(--color-nature-700);
@@ -235,7 +235,7 @@ html, body {
 
 
 .container-timeline .content-timeline {
-  padding: 30px 90px 30px 30px;
+  padding: 25px 80px 25px 25px;
   background: var(--color-nature-50);
   position: relative;
   border-radius: 10px 10px 10px 10px;
@@ -250,7 +250,7 @@ html, body {
 
 .container-timeline .content-timeline h2 {
   margin: 0 0 10px 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--color-aqua-950);
   font-family: var(--font-heading);
@@ -305,7 +305,7 @@ html, body {
 
   .container-timeline.left .content-timeline,
   .container-timeline.right .content-timeline {
-    padding: 30px 30px 30px 90px;
+    padding: 28px 28px 28px 85px;
     border-radius: 10px 10px 10px 10px;
     border-color: var(--color-nature-950);
   }
@@ -315,14 +315,76 @@ html, body {
 @media (max-width: 650px) {
   /* Cambiar el tamaño del título principal */
   .container-timeline .content-timeline h2 {
-    font-size: 1.2rem; /* Ajusta el tamaño según lo que necesites */
+    font-size: 1rem; /* Ajusta el tamaño según lo que necesites */
   }
 
   /* Cambiar el tamaño del texto en los párrafos */
   .container-timeline .content-timeline p {
-    font-size: 14px; /* Ajusta el tamaño según lo que necesites */
+    font-size: 13px; /* Ajusta el tamaño según lo que necesites */
   }
 }
+
+@media (max-width: 479.98px) {
+  .container-timeline .icon {
+    display: none;
+  }
+
+  .container-timeline.left .content-timeline,
+  .container-timeline.right .content-timeline {
+    padding: 20px; /* menor padding en móviles muy pequeños */
+  }
+
+  .container-timeline .content-timeline h2 {
+    font-size: 0.875rem; /* Tailwind: text-sm */
+  }
+
+  .container-timeline .content-timeline p {
+    font-size: 0.75rem; /* Tailwind: text-xs */
+    line-height: 1.25rem; /* Tailwind: leading-5 */
+  }
+}
+
+
+@media (max-width: 639.98px) {
+  .container-timeline .content-timeline {
+    padding: 1rem; /* Tailwind: p-4 */
+  }
+
+  .container-timeline .content-timeline h2 {
+    font-size: 1rem; /* Tailwind: text-base */
+  }
+
+  .container-timeline .content-timeline p {
+    font-size: 0.875rem; /* Tailwind: text-sm */
+    line-height: 1.5rem; /* Tailwind: leading-6 */
+  }
+}
+
+
+@media (max-width: 650px) {
+  .container-timeline .content-timeline {
+    padding: 1rem; /* Tailwind: p-4 */
+  }
+
+  .container-timeline .content-timeline h2 {
+    font-size: 1rem; /* Tailwind: text-base */
+  }
+
+  .container-timeline .content-timeline p {
+    font-size: 0.875rem; /* Tailwind: text-sm */
+  }
+}
+@media (max-width: 479.98px) {
+  .container-timeline::before {
+    width: 20px; /* Más corto porque el icono ya no está */
+  }
+
+  .container-timeline.right::before,
+  .container-timeline.left::before {
+    left: 100px; /* Mantén esto para que siga alineado correctamente */
+  }
+}
+
 /* FIN-TIME-LINE */
 
 html {

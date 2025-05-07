@@ -1,0 +1,39 @@
+---
+import Title from "../elements/Title.astro";
+import SubTitle from "../elements/SubTitle.astro";
+import EventTimeLine from "../elements/EventTimeLine2.astro";
+import Data from "../../data/SectionTimeLine2.json";
+---
+
+<section class="mx-auto max-w-7xl mb-10 scroll-mt-15" id="timeline">
+  <Title text="Programa" />
+
+  {Data.map((dayItem) => (
+    <div>
+        <!-- Subtítulo con el día -->
+        <div class="mt-15">
+            <div class="text-center">
+                <SubTitle text={dayItem.day} />
+            </div>
+        </div>
+    
+        <div class="timeline">
+          {dayItem.events.map((event, index) => (
+            <div class={`container-timeline ${index % 2 === 0 ? "left" : "right"}`}>
+              <div class="date">{event.date}</div>
+              <i class={`icon fa ${event.icon}`}></i>
+              <!-- Ícono dinámico -->
+              <div class="content-timeline">
+                <h2>{event.title}</h2>
+                <EventTimeLine
+                    body={event.body}
+                    position={index % 2 === 0 ? "left" : "right"}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+    </div>  
+  ))}  
+</section>
+

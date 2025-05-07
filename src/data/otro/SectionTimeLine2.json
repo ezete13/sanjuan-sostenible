@@ -1,0 +1,301 @@
+[
+    {
+        "day": "15 de Mayo 2025",
+        "events": [
+            {
+                "date": "9:00-10:00",
+                "title": "Charla Magistral",
+                "body": [
+                    {
+                        "nombre": "PhD. Frederic Marimon",
+                        "universidad": "Universidad Internacional de Cataluña",
+                        "pais": "España",
+                        "icono_pais": "es.svg"
+                    }
+                ],
+                "icon": "fa-graduation-cap"
+            },
+            {
+                "date": "10:30-12:00",
+                "title": "Educación para la Sostenibilidad",
+                "body": [
+                    {
+                        "nombre": "PhD. Jordi Segalas",
+                        "universidad": "Universidad Politécnica de Cataluña",
+                        "pais": "España",
+                        "icono_pais": "es.svg"
+                    },
+                    {
+                        "nombre": "MBA. Na Liang",
+                        "universidad": "Universidad Politécnica de Cataluña",
+                        "pais": "China",
+                        "icono_pais": "cn.svg"
+                    },
+                    {
+                        "nombre": "Lic. Daniela Gamez",
+                        "universidad": "Universidad Nacional de San Juan",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Florencia López",
+                        "universidad": "Red Académica Argentina por los ODS",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Noelia Wayar",
+                        "universidad": "Universidad Nacional de Córdoba",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD. Abrahan Apaza",
+                        "universidad": "Universidad Nacional Jorge Basadre Grohmann",
+                        "pais": "Perú",
+                        "icono_pais": "pe.svg"
+                    },
+                    {
+                        "nombre": "MBA Marcela Vergara",
+                        "universidad": "Universidad de los Andes",
+                        "pais": "Chile",
+                        "icono_pais": "cl.svg"
+                    },
+                    {
+                        "nombre": "Dr. Gustavo Giboin",
+                        "universidad": "Universidad Católica de Cuyo-San Luis",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA. César Javier Coria Augusto",
+                        "universidad": "Instituto de Desarrollo Sostenible",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Lic. Natalia Suarez",
+                        "universidad": "Universidad de Congreso",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    }
+                ],
+                "icon": "fa-leaf"
+            },
+            {
+                "date": "12:30-13:30",
+                "title": "Charla Magistral",
+                "body": [
+                    {
+                        "nombre": "PhD. Frederic Marimon",
+                        "universidad": "Universidad Internacional de Cataluña",
+                        "pais": "España",
+                        "icono_pais": "es.svg"
+                    }
+                ],
+                "icon": "fa-graduation-cap"
+            },
+            {
+                "date": "13:00-15:00",
+                "title": "Brunch-Posters",
+                "body": "Espacio de networking y posters académicos",
+                "icon": "fa-coffee"
+            },
+            {
+                "date": "15:00-16:30",
+                "title": "Medición y Comunicación de la Sostenibilidad",
+                "body": [
+                    {
+                        "nombre": "MBA Laura Accifonte",
+                        "universidad": "Comisión Permanente de Sostenibilidad",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD. José Luis Soriano",
+                        "universidad": "Universidad de Guadalajara",
+                        "pais": "México",
+                        "icono_pais": "mx.svg"
+                    },
+                    {
+                        "nombre": "MBA Celeste Olivares",
+                        "universidad": "Instituto de Desarrollo Sostenible",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Ada Rodrigues",
+                        "universidad": "Bolsa de Comercio",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Lic. Alfredo Fonzar",
+                        "universidad": "COVIAR",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD Martín Lazzaro",
+                        "universidad": "Universidad Nacional de La Plata-CONICET",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    }
+                ],
+                "icon": "fa-chart-line"
+            },
+            {
+                "date": "16:30-17:30",
+                "title": "Coffee-Posters",
+                "body": "Espacio para café y posters académicos",
+                "icon": "fa-mug-hot"
+            },
+            {
+                "date": "17:30-19:00",
+                "title": "Minería Sostenible",
+                "body": [
+                    {
+                        "nombre": "Dr. Juan Pablo Perea",
+                        "universidad": "Ministro de Minería",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Lic. Iván Grgic",
+                        "universidad": "Vicuña",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Ing. Mario Hernández",
+                        "universidad": "Los Azules",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Lic. Marcelo Agulles",
+                        "universidad": "Gualcamayo",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    }
+                ],
+                "icon": "fa-mountain"
+            }
+        ]
+    },
+    {
+        "day": "16 de Mayo 2025",
+        "events": [
+            {
+                "date": "9:00-10:45",
+                "title": "Políticas de Sostenibilidad",
+                "body": [
+                    {
+                        "nombre": "MBA Cinthia Garrido",
+                        "universidad": "Dirección de Economía Social",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Dr. Federico Rios",
+                        "universidad": "Secretario de Medioambiente",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD. Didier Grimaldi",
+                        "universidad": "Universidad Politécnica de Cataluña",
+                        "pais": "Francia",
+                        "icono_pais": "fr.svg"
+                    },
+                    {
+                        "nombre": "Faría Ricardo",
+                        "universidad": "Zeo Group",
+                        "pais": "Brasil",
+                        "icono_pais": "br.svg"
+                    },
+                    {
+                        "nombre": "PhD. Javier Díaz Baez",
+                        "universidad": "Instituto de Investigaciones Territoriales",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Lic. Juan Manuel Sanchez",
+                        "universidad": "Instituto de Desarrollo Sostenible",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Ing. Luis Gimenez",
+                        "universidad": "Instituto del Agua",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    }
+                ],
+                "icon": "fa-balance-scale"
+            },
+            {
+                "date": "10:45-11:30",
+                "title": "Coffee-Posters",
+                "body": "Espacio para networking y posters",
+                "icon": "fa-coffee"
+            },
+            {
+                "date": "11:30-13:30",
+                "title": "Sostenibilidad en el Sector Empresarial",
+                "body": [
+                    {
+                        "nombre": "Manuela Campillay",
+                        "universidad": "Empresa L&G",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Eduardo Ara",
+                        "universidad": "Empresa Huarpes Seguridad",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Emilce Valdivieso",
+                        "universidad": "Construcciones Valdivieso",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "Dr. Walter Rstoermann",
+                        "universidad": "El Castaño Minero",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD Jasmina Berbegal",
+                        "universidad": "Universidad Politécnica de Cataluña",
+                        "pais": "España",
+                        "icono_pais": "es.svg"
+                    },
+                    {
+                        "nombre": "MBA Elvira Alé",
+                        "universidad": "Dream-20 de Junio",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "MBA Paula Pérez",
+                        "universidad": "Instituto de Desarrollo Sostenible",
+                        "pais": "Argentina",
+                        "icono_pais": "ar.svg"
+                    },
+                    {
+                        "nombre": "PhD. Valmir Martins",
+                        "universidad": "Universidad Autónoma de Chile",
+                        "pais": "Chile",
+                        "icono_pais": "cl.svg"
+                    }
+                ],
+                "icon": "fa-building"
+            }
+        ]
+    }
+]

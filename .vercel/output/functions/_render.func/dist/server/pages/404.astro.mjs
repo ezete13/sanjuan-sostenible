@@ -1,4 +1,4 @@
-import { c as createComponent, a as createAstro, m as maybeRenderHead, r as renderTemplate } from '../chunks/astro/server_DPziu1Wn.mjs';
+import { c as createComponent, a as createAstro, m as maybeRenderHead, r as renderTemplate } from '../chunks/astro/server_Di5e6SaK.mjs';
 import 'kleur/colors';
 import 'clsx';
 export { renderers } from '../renderers.mjs';
@@ -16,9 +16,9 @@ Lo sentimos, la página que buscas no existe o ha sido movida.
 </p><a href="/" class="mt-6 px-6 py-3 bg-green-700 text-white text-lg font-medium rounded-lg shadow-md hover:bg-green-800 transition">
 Volver al inicio
 </a></div></template>`;
-}, "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/404.astro", void 0);
+}, "C:/Users/Ezequiel/Desktop/sanjuansostenible/src/pages/404.astro", void 0);
 
-const $$file = "C:/Users/Ezequiel/Desktop/sanjuan-sostenible/src/pages/404.astro";
+const $$file = "C:/Users/Ezequiel/Desktop/sanjuansostenible/src/pages/404.astro";
 const $$url = "/404";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({

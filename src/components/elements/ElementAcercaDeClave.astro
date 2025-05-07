@@ -1,0 +1,21 @@
+---
+const { title, body, image } = Astro.props;
+---
+
+<div
+    class="flex items-start gap-4 p-3 pb-0 border-l-3 border-nature-950 bg-shake-50 lg:p-5 lg:pb-0"
+>
+    <div class="h-7 flex items-center justify-center">
+        {image}
+    </div>
+    <div>
+        <h3
+            class="font-heading font-bold text-nature-950 leading-6 text-md sm:text-lg lg:text-xl"
+        >
+            {title}
+        </h3>
+        <p class="font-body text-shark-800 text-sm sm:text-md lg:text-lg">
+            {body}
+        </p>
+    </div>
+</div>

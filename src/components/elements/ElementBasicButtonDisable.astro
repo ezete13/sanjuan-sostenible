@@ -1,0 +1,11 @@
+---
+const { content, href, target, aling } = Astro.props;
+---
+
+<div class=`mt-15 gap-4 md:text-${aling} mb-10`>
+    <span
+        class="font-heading uppercase rounded-full bg-gray-300 px-5 py-4 text-sm sm:text-md font-semibold text-gray-500 shadow-sm cursor-not-allowed w-auto inline-block"
+    >
+        {content}
+    </span>
+</div>

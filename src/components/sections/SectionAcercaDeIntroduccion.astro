@@ -1,0 +1,44 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementBasicText from "../elements/ElementBasicText.astro";
+import Data from "../../data/SectionAcercaDeIntroduccion.json";
+
+const content = Data[0];
+---
+
+<section
+    class="mx-auto mb-10 scroll-mt-15
+        max-w-full px-5
+        sm:px-10
+        md:px-20
+        lg:max-w-6xl
+        pb-5 md:pb-10"
+    id={content.id_section}
+>
+    <div class="mt-15">
+        <ElementBasicTitle text={content.title_section} />
+    </div>
+
+    <div class="mx-auto md:flex md:items-stretch md:gap-6">
+        <!-- Columna de texto -->
+        <div class="md:w-1/2">
+            <div class="mt-10 lg:mt-15">
+                <ElementBasicSubTitle text={content.subtitle_section} />
+            </div>
+            <div class="mt-5">
+                <ElementBasicText text={content.body_section} />
+            </div>
+        </div>
+        <!-- Columna de imagen -->
+        <div
+            class="py-5 md:w-1/2 md:py-0 border-b-3 border-r-3 border-aqua-800 rounded md:mt-10 lg:mt-15"
+        >
+            <img
+                src={`/images/SeccionAcercaDeIntroduccion/${content.img_section}`}
+                alt="Descripción de la imagen"
+                class="w-full object-cover h-full px-3 py-0 md:py-3 rounded"
+            />
+        </div>
+    </div>
+</section>

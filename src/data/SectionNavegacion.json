@@ -1,0 +1,89 @@
+[
+    {
+        "text": "Inicio",
+        "icon": "inicio.svg",
+        "href": "#inicio",
+        "sub_items": []
+    },
+    {
+        "text": "Edición 2025",
+        "icon": "edicion.svg",
+        "href": "#edicion2025",
+        "sub_items": []
+    },
+    {
+        "text": "Sobre el Congreso",
+        "icon": "acerca_de.svg",
+        "href": "#introduccion",
+        "sub_items": [
+            {
+                "text": "Introducción",
+                "href": "#introduccion"
+            },
+            {
+                "text": "Claves",
+                "href": "#claves"
+            },
+            {
+                "text": "Objetivos",
+                "href": "#objetivos"
+            },
+            {
+                "text": "Organizadores",
+                "href": "#organizadores"
+            }
+        ]
+    },
+    {
+        "text": "Patrocinios",
+        "icon": "patrocinios.svg",
+        "href": "#destacados",
+        "sub_items": [
+            {
+                "text": "Destacados",
+                "href": "#destacados"
+            },
+            {
+                "text": "Oficiales",
+                "href": "#oficiales"
+            },
+            {
+                "text": "Institucionales",
+                "href": "#institucionales"
+            }
+        ]
+    },
+    {
+        "text": "Agenda",
+        "icon": "agenda.svg",
+        "href": "#tematicas",
+        "sub_items": [
+            {
+                "text": "Ubicacion",
+                "href": "#ubicacion"
+            },
+            {
+                "text": "Temáticas",
+                "href": "#tematicas"
+            },
+            {
+                "text": "Expositores",
+                "href": "#expositores"
+            },
+            {
+                "text": "Programa",
+                "href": "#programa"
+            },
+            {
+                "text": "Cronograma",
+                "href": "#cronograma"
+            }
+        ]
+    },
+    {
+        "text": "Contacto",
+        "icon": "contacto.svg",
+        "href": "#contacto",
+        "sub_items": []
+    }
+]

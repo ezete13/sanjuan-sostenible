@@ -1,0 +1,63 @@
+---
+import ElementBasicTitle from "../elements/ElementBasicTitle.astro";
+import ElementBasicSubTitle from "../elements/ElementBasicSubTitle.astro";
+import ElementBasicText from "../elements/ElementBasicText.astro";
+import ElementPrograma from "../elements/ElementAgendaPrograma.astro";
+import Data from "../../data/SectionAgendaPrograma.json";
+
+const content = Data[0];
+
+---
+
+<section
+    class="mx-auto mb-10 scroll-mt-15
+        max-w-full px-0
+        sm:px-10
+        md:px-20
+        lg:max-w-6xl"
+    id={content.id_section}
+>
+    <div class="mt-15">
+        <ElementBasicTitle text={content.title_section} />
+    </div>
+
+
+
+
+    {content.elements.map((item) => (
+        <div>
+            <!-- Subtítulo con el día -->
+            <div class="mt-15">
+
+                    <div class="mt-18">
+                        <div class="pl-5 text-left md:text-center md:pl-0">
+    <h2
+        class="font-heading font-bold tracking-tight text-aqua-950 md:mx-auto text-lg sm:text-xl lg:text-2xl"
+    >
+        <span class="relative inline-block">
+            {item.day}
+        </span>
+    </h2>
+</div>
+
+
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline">
+                {item.events.map((event, index) => (
+                    <ElementPrograma
+                        title={event.title}
+                        body={event.body}
+                        date={event.date}
+                        position={index % 2 === 0 ? "left" : "right"} 
+                        icon={event.icon}
+                    />
+                ))}
+            </div>
+        </div>
+    ))}
+</section>
+
+

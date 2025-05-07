@@ -1,0 +1,40 @@
+[
+    {
+        "title_section": "Temática",
+        "subtitle_section": "Ejes estratégicos para avanzar hacia un futuro sostenible",
+        "body_section": "El Congreso aborda la sostenibilidad desde una mirada integral, explorando su aplicación en la gestión pública y privada, la educación, los sectores productivos y la política pública. A través de estas temáticas clave, buscamos generar un espacio de reflexión, aprendizaje y acción en torno a los desafíos y oportunidades que plantea el desarrollo sostenible.",
+        "id_section": "tematicas",
+        "elements": [
+            {
+                "title": "Sostenibilidad modelo de gestión",
+                "body": "Estrategias y modelos para integrar la sostenibilidad en la gestión empresarial y organizacional.",
+                "image": "gestion.png"
+            },
+            {
+                "title": "Políticas sostenibles",
+                "body": "Normativas y estrategias gubernamentales para impulsar la sostenibilidad en distintos sectores.",
+                "image": "politicas.png"
+            },
+            {
+                "title": "Sostenibilidad en sectores productivos",
+                "body": "Adaptación de industrias y procesos productivos a modelos más sostenibles y responsables.",
+                "image": "sectores.png"
+            },
+            {
+                "title": "Sostenibilidad en empresas",
+                "body": "Implementación de prácticas sostenibles en el sector empresarial para minimizar impactos ambientales.",
+                "image": "empresas.png"
+            },
+            {
+                "title": "Sostenibilidad en la educación",
+                "body": "Formación y concienciación sobre sostenibilidad en instituciones educativas y programas académicos.",
+                "image": "educacion.png"
+            },
+            {
+                "title": "Medición de la sostenibilidad",
+                "body": "Métodos y herramientas para evaluar el impacto ambiental, social y económico de proyectos sostenibles.",
+                "image": "medicion.png"
+            }
+        ]
+    }
+]
