@@ -46,6 +46,13 @@
                 "link": "https://clinicaelcastano.ar/",
                 "primary_color": "#CB2C36",
                 "logo": "clinica_el_castanio.png"
+            },
+            {
+                "title": "Barrick",
+                "body": "Empresa minera global dedicada a la producción sostenible de oro, con operaciones en más de 15 países.",
+                "link": "https://www.barrick.com/Spanish/inicio/default.aspx",
+                "primary_color": "#02557E",
+                "logo": "barrick.png"
             }
         ]
     }

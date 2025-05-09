@@ -18,7 +18,7 @@
                         "institution": "Universitat Politècnica de Catalunya",
                         "country": "España",
                         "flag": "es.svg",
-                        "photo": "educacion_para_el_desarrollo_sostenible/phd_jordi_segalas.png"
+                        "photo": "educacion_para_el_desarrollo_sostenible/phd_jordi_segalas.jpg"
                     },
                     {
                         "name": "MBA. Na Liang",
@@ -70,7 +70,7 @@
                         "photo": "educacion_para_el_desarrollo_sostenible/lic_natalia_suarez.jpg"
                     },
                     {
-                        "name": "PhD. Érica Navarro",
+                        "name": "MODERA: PhD. Érica Navarro",
                         "institution": "Universidad Católica de Cuyo - Instituto de Desarrollo Sostenible",
                         "country": "Argentina",
                         "flag": "ar.svg",
@@ -121,7 +121,7 @@
                         "institution": "Coordinadora de la Comisión Permanente de Sostenibilidad Latinoamericana de Emisores de Información Financiera",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "medicion_y_comunicación_de_la_sostenibilidad/mba_laura_accifonte.png"
+                        "photo": "medicion_y_comunicación_de_la_sostenibilidad/mba_laura_accifonte.jpg"
                     },
                     {
                         "name": "Mg. Ing. Alfredo Fonzar",
@@ -145,11 +145,11 @@
                         "photo": "medicion_y_comunicación_de_la_sostenibilidad/dr_gustavo_giboin.jpg"
                     },
                     {
-                        "name": "MBA. Celeste Olivares",
+                        "name": "MODERA: MBA. Celeste Olivares",
                         "institution": "Universidad Católica de Cuyo - Instituto de Desarrollo Sostenible",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "medicion_y_comunicación_de_la_sostenibilidad/mba_celeste_olivares.jpeg"
+                        "photo": "medicion_y_comunicación_de_la_sostenibilidad/mba_celeste_olivares.jpg"
                     }
                 ]
             },
@@ -164,7 +164,7 @@
                 "participants": [
                     {
                         "name": "Dr. Juan Pablo Perea",
-                        "institution": "Ministerio de Minería",
+                        "institution": "Ministerio de Minería | Provincia de San Juan",
                         "country": "Argentina",
                         "flag": "ar.svg",
                         "photo": "mineria_sostenible/dr_juan_pablo_perea.jpg"
@@ -174,7 +174,7 @@
                         "institution": "Vicuña",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "mineria_sostenible/lic_mercedes_pages.png"
+                        "photo": "mineria_sostenible/lic_mercedes_pages.jpg"
                     },
                     {
                         "name": "Lic. Mario Hernández",
@@ -188,17 +188,17 @@
                         "institution": "Gualcamayo",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "mineria_sostenible/lic_marcelo_agulles.JPG"
+                        "photo": "mineria_sostenible/lic_marcelo_agulles.jpg"
                     },
                     {
-                        "name": "Barrick",
+                        "name": "Lic Analia Garcia ",
                         "institution": "Barrick",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "mineria_sostenible/barrick.jpg"
+                        "photo": "mineria_sostenible/lic_analia_garcia.jpg"
                     },
                     {
-                        "name": "Dr. Ariel Ocampo",
+                        "name": "MODERA: Dr. Ariel Ocampo",
                         "institution": "Universidad Católica de Cuyo - Instituto de Desarrollo Sostenible",
                         "country": "Argentina",
                         "flag": "ar.svg",
@@ -224,7 +224,7 @@
                     },
                     {
                         "name": "Dr. Federico Rios",
-                        "institution": "Secretario de Medioambiente y desarrollo sustentable",
+                        "institution": "Secretario de Medioambiente y Desarrollo Sustentable | Provincia de San Juan",
                         "country": "Argentina",
                         "flag": "ar.svg",
                         "photo": "empresas_sostenibles/dr_federico_rios.jpg"
@@ -234,7 +234,7 @@
                         "institution": "Universitat Politècnica de Catalunya",
                         "country": "Francia",
                         "flag": "fr.svg",
-                        "photo": "políticas_de_sostenibilidad/phd_didier_grimaldi.jpeg"
+                        "photo": "políticas_de_sostenibilidad/phd_didier_grimaldi.jpg"
                     },
                     {
                         "name": "Faría Ricardo",
@@ -248,7 +248,7 @@
                         "institution": "Universidad Católica de Cuyo - Instituto de Investigaciones Contables Económicas y Socio-Territoriales",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "políticas_de_sostenibilidad/phd_javier_diaz_bay.png"
+                        "photo": "políticas_de_sostenibilidad/phd_javier_diaz_bay.jpg"
                     },
                     {
                         "name": "Ing. Prof. Emérito Luis Jimenez",
@@ -258,11 +258,11 @@
                         "photo": "políticas_de_sostenibilidad/ing_prof_luis_fernando_jimenez.jpg"
                     },
                     {
-                        "name": "Lic. Juan Manuel Sanchez Simonatto",
+                        "name": "MODERA: Lic. Juan Manuel Sanchez Simonatto",
                         "institution": "Universidad Católica de Cuyo - Instituto de Desarrollo Sostenible",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "políticas_de_sostenibilidad/juan_manuel_sanchez_simonatto.png"
+                        "photo": "políticas_de_sostenibilidad/juan_manuel_sanchez_simonatto.jpg"
                     }
                 ]
             },
@@ -272,14 +272,14 @@
                 "participants": [
                     {
                         "name": "Manuela Campillay",
-                        "institution": "Empresa L&G",
+                        "institution": "LyG Logística y Gastronomía",
                         "country": "Argentina",
                         "flag": "ar.svg",
                         "photo": "empresas_sostenibles/manuela_campillay.jpg"
                     },
                     {
                         "name": "MBA. Eduardo Ara",
-                        "institution": "Empresa Huarpes Seguridad",
+                        "institution": "Huarpes Seguridad",
                         "country": "Argentina",
                         "flag": "ar.svg",
                         "photo": "empresas_sostenibles/mba_eduardo_ara.jpg"
@@ -303,7 +303,7 @@
                         "institution": "Dream-20 de Junio",
                         "country": "Argentina",
                         "flag": "ar.svg",
-                        "photo": "empresas_sostenibles/mba_elvira_ale.PNG"
+                        "photo": "empresas_sostenibles/mba_elvira_ale.jpg"
                     },
                     {
                         "name": "Lic. Ada Rodriguez",
@@ -314,13 +314,13 @@
                     },
                     {
                         "name": "Ing. Lucas Estrada",
-                        "institution": "EPSE",
+                        "institution": "EPSE | Provincia de San Juan",
                         "country": "Argentina",
                         "flag": "ar.svg",
                         "photo": "empresas_sostenibles/lucas_estrada.jpg"
                     },
                     {
-                        "name": "MBA. María Paula Pérez Armendariz",
+                        "name": "MODERA: MBA. María Paula Pérez Armendariz",
                         "institution": "Universidad Católica de Cuyo - Instituto de Desarrollo Sostenible",
                         "country": "Argentina",
                         "flag": "ar.svg",
