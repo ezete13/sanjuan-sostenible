@@ -53,6 +53,13 @@
                 "link": "https://www.barrick.com/Spanish/inicio/default.aspx",
                 "primary_color": "#02557E",
                 "logo": "barrick.png"
+            },
+            {
+                "title": "EPSE | Energía Provincial Sociedad del Estado",
+                "body": "Empresa estatal de San Juan que impulsa proyectos de energía sustentable como la solar, eólica e hidroeléctrica.",
+                "link": "https://www.barrick.com/Spanish/inicio/default.aspx",
+                "primary_color": "#EF7A13",
+                "logo": "epse.png"
             }
         ]
     }
