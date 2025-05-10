@@ -1,5 +1,17 @@
-node_modules/
-dist/
-.vercel/
-resources/
+# Carpetas del sistema
+.DS_Store
+Thumbs.db
 
+# Dependencias
+node_modules/
+.vercel/
+
+# Builds
+dist/
+.astro/
+
+# Configs de IDE
+.vscode/
+
+#Recursos Locales
+resources/
