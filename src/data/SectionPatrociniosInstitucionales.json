@@ -32,6 +32,13 @@
                 "link": "https://www.fesj.com.ar/",
                 "primary_color": "#002784",
                 "logo": "federacion_economica_sanjuan.png"
+            },
+            {
+                "title": "Facultad de Ciencias Exactas Físicas y Naturales",
+                "body": "Forma profesionales en informática, geología, biología, astronomía y geofísica, con sólida formación académica y fuerte vínculo con la investigación y el desarrollo científico.",
+                "link": "https://exactas.unsj.edu.ar/",
+                "primary_color": "#F36F30",
+                "logo": "fcefn.png"
             }
         ]
     }
