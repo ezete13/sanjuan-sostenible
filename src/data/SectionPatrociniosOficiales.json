@@ -46,6 +46,13 @@
                 "link": "https://www.merceddelestero.com.ar/",
                 "primary_color": "#886C51",
                 "logo": "merced_del_estero.png"
+            },
+            {
+                "title": "Mozarteum Argentino",
+                "body": "",
+                "link": "https://www.mozarteumargentino.org/",
+                "primary_color": "#D1B776",
+                "logo": "mozarteum.png"
             }
         ]
     }

@@ -45,6 +45,12 @@
                         "icon": "fa-utensils"
                     },
                     {
+                        "title": "Explorando Anchipurac",
+                        "body": "Visita guiada del Centro de Formación Ambiental Anchipurac",
+                        "date": "14:20",
+                        "icon": "fa-map"
+                    },
+                    {
                         "title": "Panel 2: Medición y Comunicación de la Sostenibilidad",
                         "body": "Instrumentos y técnicas para evaluar y comunicar el impacto sostenible.",
                         "date": "15:00",
